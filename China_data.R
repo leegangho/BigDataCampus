@@ -19,29 +19,41 @@ DATA4<-read.csv("Order1504.csv",sep=",",header=T,stringsAsFactors = F)
 DATA5<-read.csv("Order1505.csv",sep=",",header=T,stringsAsFactors = F)
 DATA6<-read.csv("Order1506.csv",sep=",",header=T,stringsAsFactors = F)
 DATA7<-read.csv("Order1507.csv",sep=",",header=T,stringsAsFactors = F)
-DATA8<-read.csv("Order1508.csv",sep=",",header=T,stringsAsFactors = F)
+DATA8<-read.csv("Order1508.csv",sep=",",header=T,stringsAsFactors = T)
 DATA9<-read.csv("Order1509.csv",sep=",",header=T,stringsAsFactors = F)
 DATA10<-read.csv('Order1510.csv',sep=",",header=T,stringsAsFactors = F)
 DATA11<-read.csv("Order1511.csv",sep=",",header=T,stringsAsFactors = F)
 DATA12<-read.csv("Order1512.csv",sep=",",header=T,stringsAsFactors = F)
 
-DATA1=DATA1[,-c(1,3,5,8,10,12,13,14,16)]
-DATA2=DATA2[,-c(1,3,5,8,10,12,13,14,16)]
-DATA3=DATA3[,-c(1,3,5,8,10,12,13,14,16)]
-DATA4=DATA4[,-c(1,3,5,8,10,12,13,14,16)]
-DATA5=DATA5[,-c(1,3,5,8,10,12,13,14,16)]
-DATA6=DATA6[,-c(1,3,5,8,10,12,13,14,16)]
-DATA7=DATA7[,-c(1,3,5,8,10,12,13,14,16)]
-DATA8=DATA8[,-c(1,3,5,8,10,12,13,14,16)]
-DATA9=DATA9[,-c(1,3,5,8,10,12,13,14,16)]
-DATA10=DATA10[,-c(1,3,5,8,10,12,13,14,16)]
-DATA11=DATA11[,-c(1,3,5,8,10,12,13,14,16)]
-DATA12=DATA12[,-c(1,3,5,8,10,12,13,14,16)]
+DATA1=DATA1[,-c(3,5,8,10,12,13,14,16)]
+DATA2=DATA2[,-c(3,5,8,10,12,13,14,16)]
+DATA3=DATA3[,-c(3,5,8,10,12,13,14,16)]
+DATA4=DATA4[,-c(3,5,8,10,12,13,14,16)]
+DATA5=DATA5[,-c(3,5,8,10,12,13,14,16)]
+DATA6=DATA6[,-c(3,5,8,10,12,13,14,16)]
+DATA7=DATA7[,-c(3,5,8,10,12,13,14,16)]
+DATA8=DATA8[,-c(3,5,8,10,12,13,14,16)]
+DATA9=DATA9[,-c(3,5,8,10,12,13,14,16)]
+DATA10=DATA10[,-c(3,5,8,10,12,13,14,16)]
+DATA11=DATA11[,-c(3,5,8,10,12,13,14,16)]
+DATA12=DATA12[,-c(3,5,8,10,12,13,14,16)]
+
+
+DATA8$OrderDate<-as.character(DATA8$OrderDate)
+DATA8$ItemType<-as.character(DATA8$ItemType)
+DATA8$ItemNo<-as.character(DATA8$ItemNo)
+DATA8$MarketPriceAmt<-as.numeric(DATA8$MarketPriceAmt)
+DATA8$OrderStatus<-as.character(DATA8$OrderStatus)
+DATA8$OrderQty<-as.integer(DATA8$OrderQty)
+
 
 # 2015년 Order.csv 를 열 제거 후 합침
 ALLDATA=bind_rows(DATA1,DATA2,DATA3,DATA4,DATA5,DATA6,DATA7,DATA8,DATA9,DATA10,DATA11,DATA12)
 
+
+
 # 조건문으로 축소
+# ItempType=="TAN"과 결측치 
 ALLDATA=ALLDATA %>% filter(ItemType=="TAN" & is.na(CancelCode))
 
 # 월매출건수를 위한 TOTAL
