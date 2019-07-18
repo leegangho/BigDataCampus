@@ -92,19 +92,24 @@ FDATA12<-read.csv("Fdealer1512.csv",sep=",",header=T,stringsAsFactors = F)
 
 ALLFDATA=bind_rows(FDATA1,FDATA2,FDATA3,FDATA4,FDATA5,FDATA6,FDATA7,FDATA8,FDATA9,FDATA10,FDATA11,FDATA12)
 ALLFDATA<-ALLFDATA[,-c(2:8,10)]
+SORT.SOLDTOPARTY<-sort(ALLDATA$SoldToParty)
 
 # 대리점코드 오름차순으로 정렬 (유니크하게)
 DARI.CODE<-unique(SORT.SOLDTOPARTY)
 
+ALLFDATA %>% split(ALLFDATA$FzCode)
+VUCHONG<-unique(ALLFDATA[order(sort(ALLFDATA$FdealerCode)),])
 
-VUCHONG<-c()
-TEST<-c()
-for (i in 1:10418){
-  if (sum(DARI.CODE[i]==ALLFDATA$FdealerCode)){
-    TEST[i]<-c(which(DARI.CODE[i]==ALLFDATA$FdealerCode))
-    VUCHONG[i]<-unique(ALLFDATA$FzCode[TEST])
-  }
-}
+# VUCHONG #check용
+
+# VUCHONG<-c()
+# TEST<-c()
+# for (i in 1:10418){
+#   if (sum(DARI.CODE[i]==ALLFDATA$FdealerCode)){
+#     TEST[i]<-c(which(DARI.CODE[i]==ALLFDATA$FdealerCode))
+#     VUCHONG[i]<-unique(ALLFDATA$FzCode[TEST])
+#   }
+# }
 
 # TEST<-which(DARI.CODE[1]==ALLFDATA$FdealerCode)
 # unique(ALLFDATA$FzCode[TEST])
