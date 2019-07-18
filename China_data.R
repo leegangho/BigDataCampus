@@ -12,6 +12,27 @@ library(dplyr)
 getwd()
 setwd("C:/Users/fkaus/OneDrive/문서/China")
 
+ESCAPE<-read.csv("Escape.csv",sep=",",header=T,stringsAsFactors = F)
+ESCAPE$퇴사일자[ESCAPE$퇴사일자=="NULL"]<-"2016-01-01"
+
+
+ESCAPE$입사일자<-as.Date(ESCAPE$입사일자)
+ESCAPE$퇴사일자<-as.Date(ESCAPE$퇴사일자)
+
+
+
+
+ESCAPE$퇴사일자[1]-ESCAPE$퇴사일자[1]
+
+WORKYEAR<-(ESCAPE$퇴사일자-ESCAPE$입사일자)/30
+WORKYEAR
+
+
+
+
+
+
+
 DATA1<-read.csv("Order1501.csv",sep=",",header=T,stringsAsFactors = F)
 DATA2<-read.csv("Order1502.csv",sep=",",header=T,stringsAsFactors = F)
 DATA3<-read.csv("Order1503.csv",sep=",",header=T,stringsAsFactors = F)
