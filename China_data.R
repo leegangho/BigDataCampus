@@ -18,15 +18,14 @@ ESCAPE$퇴사일자[ESCAPE$퇴사일자=="NULL"]<-"2016-01-01"
 
 ESCAPE$입사일자<-as.Date(ESCAPE$입사일자)
 ESCAPE$퇴사일자<-as.Date(ESCAPE$퇴사일자)
+#ESCAPE$퇴사일자[1]-ESCAPE$퇴사일자[1]
 
 
-
-
-ESCAPE$퇴사일자[1]-ESCAPE$퇴사일자[1]
-
+# 먼저 NA값은 입사월이 NULL인 경우 발생한다. 이는 엄청 오래된 대리점을 의미한다. 일단 그대로 두기 
+# 날짜를 계산했는데 음수값이 나오면 입사월이 퇴사월보다 나중인 경우이다. 따라서 이 부분은 0값으로 대체한다. 
 WORKYEAR<-(ESCAPE$퇴사일자-ESCAPE$입사일자)/30
+WORKYEAR[which(WORKYEAR[]<0)]<-0
 WORKYEAR
-
 
 
 
@@ -67,6 +66,24 @@ DATA8$MarketPriceAmt<-as.numeric(DATA8$MarketPriceAmt)
 DATA8$OrderStatus<-as.character(DATA8$OrderStatus)
 DATA8$OrderQty<-as.integer(DATA8$OrderQty)
 
+# Fdealer을 묶습니다. 
+FDATA1<-read.csv("Fdealer1501.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA2<-read.csv("Fdealer1502.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA3<-read.csv("Fdealer1503.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA4<-read.csv("Fdealer1504.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA5<-read.csv("Fdealer1505.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA6<-read.csv("Fdealer1506.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA7<-read.csv("Fdealer1507.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA8<-read.csv("Fdealer1508.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA9<-read.csv("Fdealer1509.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA10<-read.csv('Fdealer1510.csv',sep=",",header=T,stringsAsFactors = F)
+FDATA11<-read.csv("Fdealer1511.csv",sep=",",header=T,stringsAsFactors = F)
+FDATA12<-read.csv("Fdealer1512.csv",sep=",",header=T,stringsAsFactors = F)
+
+ALLFDATA=bind_rows(FDATA1,FDATA2,FDATA3,FDATA4,FDATA5,FDATA6,FDATA7,FDATA8,FDATA9,FDATA10,FDATA11,FDATA12)
+ALLFDATA<-ALLFDATA[,-c(2:8,10)]
+
+
 ALLDATA=bind_rows(DATA1,DATA2,DATA3,DATA4,DATA5,DATA6,DATA7,DATA8,DATA9,DATA10,DATA11,DATA12)
 ALLDATA=ALLDATA %>% filter(ItemType=="TAN" & is.na(CancelCode))
 
@@ -97,22 +114,8 @@ SALE.MONEY.MONTH<-SALE.MONEY.YEAR/12
 MONTH.ORDER.NUMBER<-table(ALLDATA$SoldToParty)/12
 #-------------------------------------------------------
 
-# Fdealer을 묶습니다. 
-FDATA1<-read.csv("Fdealer1501.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA2<-read.csv("Fdealer1502.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA3<-read.csv("Fdealer1503.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA4<-read.csv("Fdealer1504.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA5<-read.csv("Fdealer1505.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA6<-read.csv("Fdealer1506.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA7<-read.csv("Fdealer1507.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA8<-read.csv("Fdealer1508.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA9<-read.csv("Fdealer1509.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA10<-read.csv('Fdealer1510.csv',sep=",",header=T,stringsAsFactors = F)
-FDATA11<-read.csv("Fdealer1511.csv",sep=",",header=T,stringsAsFactors = F)
-FDATA12<-read.csv("Fdealer1512.csv",sep=",",header=T,stringsAsFactors = F)
 
-ALLFDATA=bind_rows(FDATA1,FDATA2,FDATA3,FDATA4,FDATA5,FDATA6,FDATA7,FDATA8,FDATA9,FDATA10,FDATA11,FDATA12)
-ALLFDATA<-ALLFDATA[,-c(2:8,10)]
+
 SORT.SOLDTOPARTY<-sort(ALLDATA$SoldToParty)
 
 # 대리점코드 오름차순으로 정렬 (유니크하게)
@@ -120,6 +123,54 @@ DARI.CODE<-unique(SORT.SOLDTOPARTY)
 
 ALLFDATA %>% split(ALLFDATA$FzCode)
 VUCHONG<-unique(ALLFDATA[order(sort(ALLFDATA$FdealerCode)),])
+
+
+str(VUCHONG)
+str(WORKYEAR)
+
+signiture<-data.frame(SALE.MONEY.MONTH,SALE.MONEY.YEAR)
+cbind(signiture,VUCHONG)
+
+
+
+as.data.frame(VUCHONG)
+as.data.frame(WORKYEAR)
+as.data.frame(SALE.MONEY.YEAR)
+as.data.frame(SALE.MONEY.MONTH)
+as.data.frame(MONTH.ORDER.NUMBER)
+
+
+VUCHONG
+WORKYEAR
+
+
+SALE.MONEY.MONTH
+SALE.MONEY.YEAR
+MONTH.ORDER.NUMBER
+
+
+signiture<-cbind(SALE.MONEY.MONTH,SALE.MONEY.YEAR,MONTH.ORDER.NUMBER)
+signiture
+
+#merge(signiture,VUCHONG)
+
+View(signiture)
+View(VUCHONG)
+View(WORKYEAR)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # VUCHONG #check용
 
@@ -153,25 +204,6 @@ VUCHONG<-unique(ALLFDATA[order(sort(ALLFDATA$FdealerCode)),])
 # signiture<-data.frame(ORDER.NUMBER,sale_money)
 # signiture$sale_money_year<-signiture$sale_money/12
 # signiture
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
