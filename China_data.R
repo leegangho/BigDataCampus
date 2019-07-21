@@ -1,7 +1,7 @@
 library(dplyr)
+library(stringr)
+library(lubridate)
 setwd("C:/Users/fkaus/OneDrive/문서/China")
-
-
 
 DATA1<-read.csv("Order1501.csv",sep=",",header=T,stringsAsFactors = F)
 DATA2<-read.csv("Order1502.csv",sep=",",header=T,stringsAsFactors = F)
@@ -83,4 +83,110 @@ names(DATE)[names(DATE)=="대리점코드"]<-c("SoldToParty")
 signiture.table<-merge(signiture.table,DATE,by="SoldToParty",all = FALSE)
 signiture.table
 #-----------------------------------------------------------------------------------------------
+
+COMPUTE.DATE<-data.frame(입사일자=signiture.table$입사일자,퇴사일자=signiture.table$퇴사일자)
+COMPUTE.DATE[1]<-as.Date(COMPUTE.DATE$입사일자)
+COMPUTE.DATE[2]<-as.Date(COMPUTE.DATE$퇴사일자)
+
+
+# 퇴사일자가 없는 곳은 2015-12-31로 정함
+# 2015년에 근무개월을 계산해야 하므로, 퇴사일자가 2015-12-31 이상이면 2015-12-31로 함 
+COMPUTE.DATE[is.na(COMPUTE.DATE[2]),2]<-as.Date("2015-12-31")
+COMPUTE.DATE[COMPUTE.DATE[[2]]>as.Date("2015-12-31"),2]<-as.Date("2015-12-31")
+
+# 입사일자가 2015년 이전이면 2015-01-01로 하여, 2015년 근무한 날짜만 계산하도록 합니다. 
+COMPUTE.DATE[is.na(COMPUTE.DATE[1]),1]<-as.Date("2001-04-21")
+COMPUTE.DATE[COMPUTE.DATE[[1]]<as.Date("2015-01-01"),1]<-as.Date("2015-01-01")
+COMPUTE.DATE$근속개월<-1
+COMPUTE.DATE$근속일<-COMPUTE.DATE[,2]-COMPUTE.DATE[,1]
+COMPUTE.DATE$근속개월<-COMPUTE.DATE$근속일/30
+COMPUTE.DATE
+
+COMPUTE.DATE$근속일<-COMPUTE.DATE[2]-COMPUTE.DATE[1]
+COMPUTE.DATE$근속일<-as.numeric(COMPUTE.DATE$근속일)
+COMPUTE.DATE$근속일<-COMPUTE.DATE[3]/30
+
+
+
+signiture.table<-signiture.table[,-c(6,7)]
+signiture.table$근속개월<-1
+signiture.table$근속개월<-COMPUTE.DATE$근속일
+
+signiture.table$근속개월<-COMPUTE.DATE$근속개월
+signiture.table$근속개월<-as.numeric(signiture.table$근속개월)
+head(signiture.table)
+
+#-----------------------------------------------------------------------------------------------
+
+#이탈여부 구하기(0:이탈안함, 1:이탈)
+date<-read.csv("date.csv")
+date<-date[1:29417, ]
+date[2]<-as.Date(date[[2]])
+date[3]<-as.Date(date[[3]])
+date[is.na(date[[3]]), 3]<-as.Date("2020-10-10")
+date[date[[3]]>=as.Date("2016-01-01"), 3]<-NA
+test1 <- is.na(date[3])
+date$이탈여부[test1]<-0
+date[is.na(date[4]),4]<-1
+head(date)
+
+names(date)[names(date)=="대리점코드"]<-c("SoldToParty")
+
+
+signiture.table<-merge(signiture.table,date,by="SoldToParty",all = FALSE)
+signiture.table<-signiture.table[,-c(7,8)]
+names(signiture.table)[names(signiture.table)=="입사일자.x"]<-c("입사일자")
+names(signiture.table)[names(signiture.table)=="퇴사일자.x"]<-c("퇴사일자")
+head(signiture.table)
+View(signiture.table)
+
+
+names(ALLFDATA)[names(ALLFDATA)=="FdealerCode"]<-c("SoldToParty")
+
+table(ALLFDATA)
+ALLFDATA<-ALLFDATA[order(unique(ALLFDATA$SoldToParty)),]
+
+
+
+signiture.table<-merge(signiture.table,ALLFDATA,by="SoldToParty",all=F)
+signiture.table<-signiture.table[order(unique(signiture.table$SoldToParty)),]
+signiture.table
+# signiture.table<-merge(signiture.table,ALLFDATA,by="SoldToParty",all.x=FALSE)
+# signiture.table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
