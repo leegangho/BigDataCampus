@@ -1,6 +1,9 @@
 #20190729 기본함수와 정규표현식 
 
 library(dplyr)
+library(stringr)
+
+setwd("D:/BigDataCampus")
 
 # 영어를 찾습니다. 
 LETTERS[3]
@@ -142,7 +145,6 @@ grep("^[^0-9]",grep_ex,value=TRUE)
 
 #------------------------------------------------------------------
 
-setwd("D:/BigDataCampus")
 
 reg_ex<-read.table("reg_ex.txt",sep = "\t")
 head(reg_ex$V1)
@@ -164,8 +166,8 @@ sum(table(grep("ORA",reg_ex$V1)))
 
 #------------------------------------------------------------------
 
-install.packages("stringr")
-library(stringr)
+#install.packages("stringr")
+
 myword<-c("1번째는 통일입니다.","2번쨰는 가족입니다.")
 
 # str_extract(text,key) 
@@ -213,29 +215,21 @@ str_c(number,alphabet,sep="")
 # 분리된 분장을 하나의 문장으로 합칩니다. collapse
 str_c(number,alphabet,collapse=".")
 
+#---------------------------------------------------------------------------
+
+#20190729 과제 
+R.wiki<-readLines("R_wiki.txt")
+
+upper.word<-str_extract_all(word,"([A-Z])[[:alpha:]]*")
+upper.word<-unlist(upper.word)
+upper.word
 
 
+word2<-str_split(R.wiki," ")
+sum(table(word2[[1]]))
+sum(table(word2[[2]]))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+str_locate_all(R.wiki,"([A-Z])[[:alpha:]]*")
 
 
 
