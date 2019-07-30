@@ -1,0 +1,417 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>北 &#39;핵실험장 폐기&#39; 한국 취재진, 정부 특별기로 원산행 - 조선닷컴 - 정치 &gt; 외교·안보</title>
+<meta name="title" content="北 &#39;핵실험장 폐기&#39; 한국 취재진, 정부 특별기로 원산행" />
+<meta name="description" content="통일부는 북한 풍계리 핵실험장 폐기 행사를 취재할 남측 기자단이 23일 낮 12시 30분 성남공항에서 정부 수송기를 타고 원산 갈마비행장으로 이..">
+    <meta name="news_keywords" content="풍계리 비자 장사,취재 전망대 설치,완전한 비핵화 압박,미북회담 시각차" />	
+<meta name="keywords" content="조선일보, 조선닷컴, chosun, 조선미디어, 일간지, 신문, 뉴스, 보도, 속보, 정치, 경제, 사회, 국제, 문화, 사설, 컬럼, News, Newspaper, Korea, South Korea, Rep.Korea">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+<meta name="HITLOG" content="1;24;2018052300694">
+<link rel="amphtml" href="http://m.chosun.com/news/article.amp.html?sname=news&contid=2018052300694">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.chosun.com/svc/article.html?sname=news&contid=2018052300694">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+
+<meta property="og:image" content="http://image.chosun.com/sitedata/image/201805/23/2018052300693_0.jpg" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300694.html" />
+<meta property="og:title" content="北 &#39;핵실험장 폐기&#39; 한국 취재진, 정부 특별기로 원산행" />
+<meta property="og:description" content="통일부는 북한 풍계리 핵실험장 폐기 행사를 취재할 남측 기자단이 23일 낮 12시 30분 성남공항에서 정부 수송기를 타고 원산 갈마비행장으로 이.." />
+<meta property="article:publisher" content="https://www.facebook.com/chosun" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="통일부는 북한 풍계리 핵실험장 폐기 행사를 취재할 남측 기자단이 23일 낮 12시 30분 성남공항에서 정부 수송기를 타고 원산 갈마비행장으로 이..">
+<meta name="twitter:title" content="北 &#39;핵실험장 폐기&#39; 한국 취재진, 정부 특별기로 원산행"/>
+<meta name="twitter:image:src" content="http://image.chosun.com/sitedata/image/201805/23/2018052300693_0.jpg"/>
+<meta name="twitter:site" content="@Chosun"/>
+<meta name="twitter:creator" content="@Chosun"/>
+<meta property="article:publisher" content="https://www.facebook.com/chosun" />
+<link rel="alternate" TYPE="application/rss+xml" TITLE="Chosun.com [RSS]" HREF="/site/data/rss/rss.xml">
+<!--[if lt IE 9]><script src="http://news.chosun.com/dhtm/html5/html5shiv.min.js"></script><![endif]-->
+<link rel="stylesheet" href="http://news.chosun.com/dhtm18/css/art/cs_art_2018.css?ver=201805">
+<script type="text/javascript">
+    // CSS reload
+    var uniqueNum = new Date().getTime(),
+        cssURL = 'css/cs_art_2018.css?ver=' + uniqueNum,
+        cssElement=document.createElement('link')
+    cssElement.setAttribute('rel','stylesheet')
+    cssElement.setAttribute('type','text/css')
+    cssElement.setAttribute('href', cssURL);
+    document.getElementsByTagName("head")[0].appendChild(cssElement);
+
+    var _sf_startpt=(new Date()).getTime();
+</script>
+<script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="/dhtm/js/common/collecter_news.js"></script>
+<script type="text/javascript" src="http://news.chosun.com/js/makePCookie.js"></script>
+<script type="text/javascript" src="http://news.chosun.com/dhtm/js/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+
+
+<script type="text/javascript"> 
+	var ArtID = "2018052300694",
+	    CatID = "24",
+	    OrgID = "",
+	    ArtTitle = "北 '핵실험장 폐기' 한국 취재진, 정부 특별기로 원산행",
+	    VoiceURL = "https://s3-ap-northeast-2.amazonaws.com/chosun-polly-mpeg/2018052300694.mp3";
+
+	if ( ArtTitle.length > 45 ){
+        var ArtTitleMin = ( ArtTitle.substring(0,45) + "..." );
+    } else {
+		var ArtTitleMin = ArtTitle;
+	};
+
+	var TempDate="입력 : 2018.05.23 09:24	 / 수정 : 2018.05.23 12:27";
+    var scrabYN = 'Y',
+        arrReferrers = "chosun.com";
+	function outlinkReferrer() {
+		var referrer = document.referrer;
+		if (referrer.indexOf(arrReferrers) >= 0){
+            return true;
+		}
+		return false;
+	};
+	var C1_rp = "정치",
+        C2_rp = "외교·안보";
+</script>
+
+
+<script type="text/javascript">
+    var TOP_DIR = "politics";
+    var AD_PAGE = "www.chosun.com/p_news";
+</script>
+<script>
+// google analytics test 20180330
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-58940796-1', 'auto');
+
+                ga('set', 'dimension2', '윤희훈 기자');
+
+ga('set', 'dimension3', '정치');
+
+ga('require', 'displayfeatures');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+
+ga('create', 'UA-58940796-24', 'auto',{'name':'chosun_total'});
+ga('require', 'displayfeatures');
+ga('require', 'linkid', 'linkid.js');
+ga('chosun_total.send', 'pageview');
+</script>
+        
+<a id="top"></a>
+
+<div id="csWrap" class="">
+    <script src="http://news.chosun.com/dhtm18/js/art/cs_art_adtop_2018.js"></script>
+
+<div id="csHeader" class="csh_art">
+    <script src="http://news.chosun.com/dhtm18/js/art/cs_art_gnb_2018.js?0521"></script>    
+</div><!-- csHeader -->
+
+<div id="csContent">
+
+    <header class="news_title">
+    <dl class="news_cat">
+        <dd class="news_cat_other">
+            <script src="http://news.chosun.com/dhtm18/js/art/cs_art_cat_2018.js"></script>
+        </dd>
+    </dl><!-- news_cat -->
+    <div class="news_title_text">
+        <h1 id="news_title_text_id">北 &#39;핵실험장 폐기&#39; 한국 취재진, 정부 특별기로 원산행</h1>
+        <div class="news_title_author">
+				<li id="j1">
+				
+					
+				 
+				<a href="http://search.chosun.com/search/newsSearch.jsp?detailFlag=1&searchTermWriter=윤희훈 기자" target="_blank" title="이 기자의 다른 기사 보기(새창)">윤희훈 기자</a>
+		</li>
+		
+        </div>
+    </div><!-- news_title_text -->
+    <ul class="news_title_tools" id="news_title_tools_id">
+        <!-- 현재 기사가 스크랩되어 있다면 '.saved' 클래스를 추가 -->      
+    </ul>
+</header><!-- news_title -->
+
+<div class="sticky_wrapper" id="sticky_wrapper_id">
+<article class="news_article">
+    <div class="news_body_all">
+    <div class="news_left_aside" id="news_left_aside_id">
+        <ul class="news_left_aside_sns">
+            <li><a href="#news_cmt_id" class="count_cmt" title="">100자평 <span class="count" id="BBSCNT">0</span></a></li>
+            <li><a onClick="javascript:csLike();" class="count_like" title="">좋아요 <span class="count" id="CSCNT">0</span></a></li>
+            <li><a href="javascript:facebookOpen()" class="share_fb" title="">페이스북 공유</a></li>
+            <li><a href="javascript:twitterOpen()" class="share_tw" title="">트위터 공유</a></li>
+            <li><a href="javascript:kakaostoryOpen()" class="share_kas" title="">카카오스토리 공유</a></li>
+            <div class="news_left_aside_sns_more" id="news_left_aside_sns_more_id">
+                <li><a href="javascript:googleplusOpen()" class="share_gp" title="">구글플러스 공유</a></li>
+                <li><a href="javascript:nblogOpen()" class="share_nblog" title="">네이버블로그 공유</a></li>                
+            </div>
+            <li><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300694.html" class="share_url" id="share_url_id" title="">기사 URL공유</a><input type="text" class="art_share_url" id="art_share_url_id" readonly=""></li>
+            <li><a href="#" class="share_more int_rotate" id="share_more_id" title="">공유 더보기</a></li>
+        </ul>
+    </div><!-- news_left_aside -->
+    <div id="news_body_id" class="news_body">
+        <div class="news_date">입력 2018.05.23 09:24
+     | 수정 2018.05.23 12:27
+</div>
+        <h3 class="news_subtitle"></h3>
+
+<!-- 기사 본문 start -->
+<!--  -->
+
+        <div class="news_imgbox def" ><!-- img option modified under300 right 20150828 -->
+            <figure>
+
+<!-- img links has -->
+<!-- img links none -->
+<img src="http://image.chosun.com/sitedata/image/201805/23/2018052300693_0.jpg" alt="">
+
+                <figcaption>북한 풍계리 핵실험장 폐기행사를 취재할 한국 취재진이 21일 북한이 지정한 5개국 취재진의 집결지인 중국 베이징 서우두 공항에 도착, 주중 북한대사관 주소를 확인하고 있다. /사진 공동취재단</figcaption>
+            </figure>
+        </div>
+
+
+
+
+
+
+
+<!-- article text body 20151022, modify 2018.05 -->
+        <div class="par">통일부는 북한 풍계리 핵실험장 폐기 행사를 취재할 남측 기자단이 23일 낮 12시 30분 성남공항에서 정부 수송기를 타고 원산 갈마비행장으로 이동한다고 밝혔다.<br><br>백태현 통일부 대변인은 이날 정례브리핑에서 “정부는 오늘 오전 판문점 개시통화 시 풍계리 핵실험장 폐기 현장을 방문해 취재할 우리 측 공동취재단 기자 8명의 명단을 북측에 통보했으며 북측은 명단을 접수했다”며 “(우리측 취재단은)오늘 12시 30분에 정부 수송기편으로 성남공항에서 원산으로 출발할 예정”이라고 말했다.<br><br>백 대변인은 이어 “정부는 우리 공동취재단 풍계리 핵실험장 폐기 행사에 참석하게 된 것을 환영한다”며 “이번 풍계리 핵실험장 폐기를 시작으로 북미정상회담과 각급의 대화를 통해 한반도의 완전한 비핵화가 조속히 실현되기를 기대한다”고 했다.<br><br>북한은 이날 남측 기자단 수령과 관련해 별다른 언급을 하지 않은 것으로 전해졌다. 백 대변인은 ‘북측이 지난 5일간 남측 기자단의 명단 수령을 거부하다 이날 전격 수령한 배경’에 대한 질문에 “북측에서 특별한 언급은 없었다. 늦게나마 명단을 접수한 것에 대해서 다행으로 생각한다”고 답했다.<br><br>백 대변인은 이어 “이번에는 정부 인사는 없이 기자단 8명만 방북하는 것으로 알고 있다”면서  “항공기 운항 등에 대해서는 미 측과 사전에 협의했다”고 설명했다. <br><br>이날 정부 수송기를 타고 방북하는 기자단은 귀환할 때는 외신 기자들과 동일하게 북한이 준비한 항공편으로 베이징으로 이동한 뒤, 민항기를 타고 서울로 돌아올 예정이다. <br><br></div>
+
+
+        <div class="news_imgbox def" ><!-- img option modified under300 right 20150828 -->
+            <figure>
+
+<!-- img links has -->
+<!-- img links none -->
+<img src="http://image.chosun.com/sitedata/image/201805/23/2018052300693_1.jpg" alt="">
+
+                <figcaption>백태현 통일부 대변인./연합뉴스</figcaption>
+            </figure>
+        </div>
+
+
+
+
+
+
+
+<!-- article text body 20151022, modify 2018.05 -->
+										
+        <div class="par">다음은 23일 통일부 정례브리핑.<br><br><strong>정부는 오늘(23일) 오전 판문점 개시통화 시 풍계리 핵실험장 폐기 현장을 방문하여 취재할 우리 측 공동취재단 기자 8명의 명단을 북측에 통보했으며, 북측은 명단을 접수했다.</strong><br><br><strong>정부는 우리 공동취재단 풍계리 핵실험장 폐기 행사에 참석하게 된 것을 환영하며 이번 풍계리 핵실험장 폐기를 시작으로 북미정상회담과 각급의 대화를 통해 한반도의 완전한 비핵화가 조속히 실현되기를 기대한다.</strong><br><br>- 그동안 정부는 북측에 어떤 채널을 통해서 어떻게 설득 작업을 해왔나? 두 번째로 북한이 5일 만에 전격적으로 명단을 접수한 배경이 뭐라고 판단하나?<br><br><strong>“구체적인 남북 협의사항에 대해서는 확인해서 알려드릴 게 있으면 알려드리겠다. 그리고 이번에 북한이 갑자기 접수한 배경에 대해서 북측에서 특별한 언급은 없었다. 늦게나마 명단을 접수한 것에 대해서 다행으로 생각한다. 그리고 동 사안에 대해서 항공기 운항 등에 대해서는 미 측과 사전에 협의하였다는 말씀을 드린다. 오늘 관련한 계획에 대해서 간단히 말씀드리면 (기자단은)오늘 12시 30분에 정부 수송기편으로 성남공항에서 원산으로 출발할 예정이다. 그리고 돌아오는 것은 방북한 다른 국가 기자 일행들과 함께 돌아올 것으로 예상된다.”</strong><br><br>- 풍계리 핵실험장 폐쇄 행사는 며칠에 진행되는 것인지 북한으로부터 통보받은 게 있나?<br><br><strong>“아직 구체적인 일정에 대해서는 통보받은 게 없다. 23일에서 25일 사이에 진행되는 것으로 알고 있다.”</strong><br><br>- 방북했던 한국 측 기자들이 돌아올 때에는 베이징을 거쳐서 다시 돌아온다는 건가?<br><br><strong>“예. 함께 돌아오는 일정이 원산에서 다시 베이징으로 그렇게 오는 것으로 돼 있다.”</strong><br><br>- 어젯밤에 '23일 아침에 다시 접수를 하겠다'고 공지했다. 정확하게 우리가 접수를 한 시간, 북한이 접수를 받은 시간. 그리고 미국 측과 협의 끝에 이 항공기 부분에서 양해를, 혹은 그쪽에서 제재 제외조치를 해준 시간을 알려달라.<br><br><strong>“시간과 관련해서는 제가 구체적인 시각은 모른다. 9시 (판문점 연락채널)개시 통화 직후에 바로 이뤄진 것으로 알고 있다. 그리고 항공기 운항 등 전반적인 것과 관련해서는 미국과 사전협의가 충분히 됐다고 알고 있다.”</strong><br><br>- 오늘 판문점 개시통화 때 이 풍계리 취재진 방북 이외에 남북 간의 다른 현안들, 예를 들어서 남북 고위급회담 개최나 그 외에 제기됐던 여러 가지 인도적 사안들에 대해서는 의견 교환이 있었나?<br><br><strong>“다른 특별한 사안과 관련해서 이뤄진 건 없는 것으로 알고 있다. 수송지원과 관련해서 운항승인 등에 필요한 남북 간의 협의가 필요하다. 그래서 그런 부분들이 실무적으로 협의가 되고 있는 것으로 알고 있다.”</strong><br><br>- 이번에 기자단이 정부 수송기를 통해서 북측으로 이동하게 됐는데, 정부 소유 항공편이 북측을 방문한 전례가 있나?<br><br><strong>“그 부분은 확인해서 알려드리겠다.”</strong><br><br>- 대북특사단이 예전에 타고 간 것은 어떤 비행기였나? 정의용 실장이 타고 간 비행기도 똑같은 정부 소유 항공기로 알고 있는데 어떤 비행기였나?<br><br><strong>“그것도 정부 수송기로 알고 있다. 더 구체적인 사항은 확인해서 알려드리겠다.”</strong><br><br>- 경로에 대해서 평창올림픽 전례에 따라 남북 직항로 이용한다고 말했는데, 이게 ‘동해’라고 생각하면 될지, 혹시 ‘서해’인가?<br><br><strong>“남북 간 협의가 필요한 사안이다. 기본적으로 원산공항이기 때문에 동해 직항로라고 판단된다.”</strong><br><br>- 풍계리 핵실험장 폐기와 관련해 오늘부터의 일정을 파악하고 있는 게 있나? 어떻게 행사가 진행될지에 대해서 구체적으로.<br><br><strong>“글쎄요. 그 부분은 현지에 기자단이 나와 있기 때문에 수시로 그런 정보들이 오지 않을까, 그렇게 생각한다.”</strong><br><br>- 우리 기자단이 타고 가는 비행기가 군 소유인지 아니면 정부부처 소유인지 정확히 구분지어 달라.<br><br><strong>“정부 수송기로 알고 있다. 그거를 특별히 구분할 실익이 있는지 모르겠는데 확인이 다르면 알려드리겠다.”</strong><br><br>- 혹시 우리 정부 측 인사도 원산에 몇 명이나 동행하나?<br><br><strong>“아까 말씀드렸듯이 기자 8명의 명단을 통보했다고 그렇게 알고 있다. 우리 측 관계자 동행여부에 대해서는 확인이 되면 알려드리겠다.”</strong><br><br>- 원산 갈마비행장 도착 예정시간은 어떻게 되고, 또 도착까지 북측과 합의가 된 것인지 확인해달라.<br><br><strong>“그 부분도 저희가 구체적으로 확정이 되는 사안이 있으면 바로 공지해 드리겠다.”</strong><br><br>- 그러면 지금 현재 기자단 8명만 통보돼 있고 우리 정부 측 인사 명단은 아직 통보가 안 된 건가?<br><br><strong>“기자단 8명만 가는 것으로 알고 있다.”</strong><br><br>- 며칠 전에 북한이 판문점 연락채널로 우리 취재진 명단을 접수를 거부할 때는 위에서 지시받은 바가 없다. 이런 취지의 반응을 보였다고 했다. 혹시 오늘은 명단을 접수하면서 특별한 반응을 보인 것이 있는지. 공개 가능하시면 소개해 달라.<br><br><strong>“아침에 우리가 명단을 통보했다. 어제 언론 통지를 통해서 예고한 대로 통지를 했고, 접수했다는 상황만 알고 있다. 구체적인 사안에 대해서는 저희가 한번 확인해 보겠다.”</strong><br><br>- 어제 마감 통화는 몇 시에 끝났고 그때 북측이 어떤 얘기를 했는지 좀 설명해달라.<br><br><strong>“어제 저희가 판문점 채널은 정상적으로 9시경 개시를 해서 오후 4시경 마감됐다.”</strong><br><br>- 그러면 그 외에는 추가적으로 협의가 전혀 없었나, 판문점 채널에서는?<br><br><strong>“예. 뭐 판문점 통해서는 특별한 사항이 없었다.”</strong><br><br>- 사전에 북한에서 기자단 명단을 접수할 수도 있다는 어떤 사전에 징후가 있었는지, 한미 정상회담 결과가 남측의 기자단 접수에 영향을 미쳤는지에 대해서 어떻게 생각하는지?<br><br><strong>“아까도 말씀드렸듯이 북측에서 특별한 언급이 없었다. 그래서 그 부분에 대해서는 제가 예단해서 말씀드리기는 좀 적절하지 않은 것 같다.”</strong><br><br>- 아까 우리 기자단<script type="text/javascript" src="http://news.chosun.com/dhtm18/js/art/cs_art_ad_center_in_2018.js"></script> 수송과 관련해서 미국과 사전에 협의를 충분히 했다고 설명했다. 이건 우리가 특별기를 편성해서 수송할 계획을 짜서 준비를 해왔다는 건데, 이걸 언제부터 준비를 해왔는지 설명해달라.<br><br><strong>“이 상황에 대해서는 기자들이 다 알 겁니다. 우리 공동취재단이 북경에 갔었고, 그 이후에 진행되는 모든 사항에 대해서 한미 간에 긴밀히 공조하고 있다는 차원에서 말씀드린 거다.”</strong><br><br></div>
+
+
+
+
+<!-- 기사 본문 end -->
+
+        <div class="news_like">
+            <a onClick="javascript:csLike();" class="count_like">좋아요 <span class="count" id="CSCNT">0</span></a>
+        </div>
+
+
+	<div class="news_tag" id="news_tag_id">
+		<h5>키워드</h5>
+		<ul class="news_tag_list">
+			<li><a href="http://search.chosun.com/search/news.search?query=%ED%92%8D%EA%B3%84%EB%A6%AC+%EB%B9%84%EC%9E%90&key" target="_blank">#풍계리 비자 장사</a></li>			<li><a href="http://search.chosun.com/search/total.search?query=%ED%92%8D%EA%B3%84%EB%A6%AC+%EC%A0%84%EB%A7%9D%EB%8C%80&key" target="_blank">#취재 전망대 설치</a></li>			<li><a href="http://search.chosun.com/search/news.search?query=%EC%99%84%EC%A0%84%ED%95%9C+%EB%B9%84%ED%95%B5%ED%99%94&key" target="_blank">#완전한 비핵화 압박</a></li>			<li><a href="http://search.chosun.com/search/news.search?query=%ED%95%9C%EB%AF%B8%EC%A0%95%EC%83%81%ED%9A%8C%EB%8B%B4&key" target="_blank">#미북회담 시각차</a></li>		</ul>
+	</div>
+
+
+    <div class="news_rel" id="news_rel_id">
+    <h4>관련기사를 더 보시려면,</h4>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/24/2018052400356.html?related_all">文대통령·트럼프, '미북회담 뒤 南·北·美 종전선언' 논의</a>
+	<em>이민석 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/24/2018052400348.html?related_all">트럼프 &quot;文대통령 있어 한국은 아주 행운&quot;, 文대통령 &quot;아무도 못한 일 해내리라 확신&quot;</a>
+	<em>이민석 기자</em></dt>
+</dl>
+<dl>
+	<dd class="thumb"><img src="http://image.chosun.com/sitedata/thumbnail/201805/24/2018052400910_0_thumb.jpg"></dd>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/24/2018052400911.html?related_all">"文대통령 말 통역 말라" 외교결례 논란에 靑 입장은</a>
+	<em>이슬기 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052302452.html?related_all">트럼프 "文대통령 말 통역 말라"… 외교결례 논란</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300437.html?related_all">트럼프 “비핵화, 일괄타결로…핵 버리면 김정은 안전 보장”</a>
+	<em>김남희 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300427.html?related_all">청와대 "내달 12일 북미회담 성사될 것"</a>
+	<em>이슬기 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300251.html?related_all">6월 미북회담 연기 시사에… 靑 "개최하지 말자는건 아니다"</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/22/2018052202873.html?related_all">文대통령, 폼페이오·볼턴 만나 "北 회담의지 분명, 준비 매진하라"</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300189.html?related_all">트럼프 &quot;원하는 조건 충족 안 되면 미북 정상회담 안 해도 좋다&quot;</a>
+	<em>윤민혁 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300171.html?related_all">트럼프 기자회견장 된 한미정상회담</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300247.html?related_all">트럼프 "김정은, 시진핑 만난 뒤 태도 변화는 사실"</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300137.html?related_all">文대통령, 한미정상회담 시작...&quot;평화와 번영을 향한 한미동맹&quot;</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300750.html?related_all">美국방부 "핵포기 쉽지 않을 것… 김정은 공격적으로 변할수도"</a>
+	<em>배정원 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300877.html?related_all">CNN 기자 &quot;날은 맑은데…풍계리 이동 소식 아직 없어&quot;</a>
+	<em>이경민 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300333.html?related_all">한미정상, 北태도·미북정상회담 대해 현격한 시각차</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052301791.html?related_all">美 "北핵실험장 폐쇄, 전문가 사찰 필요" 재차 압박</a>
+	<em>김남희 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052300245.html?related_all">文대통령 "미북회담 예정대로 개최 확신… 성공 돕겠다"</a>
+	<em>워싱턴=박정엽 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/24/2018052400196.html?related_all">트럼프 "미북정상회담 개최 여부 다음 주 알게 될 것"</a>
+	<em>안상희 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/23/2018052302525.html?related_all">6·12 미북회담 열릴까… 전문가들 반으로 갈렸다</a>
+	<em>양승식 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/24/2018052400788.html?related_all">北최선희 "대화 구걸 안해… 美, 끔찍한 비극 맛볼 수도"</a>
+	<em>윤희훈 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/24/2018052400340.html?related_all">트럼프 34분 돌발 회견에… 21분으로 끝나버린 단독회담</a>
+	<em>워싱턴=정우상 기자</em></dt>
+</dl>
+<dl>
+	<dt><a href="http://news.chosun.com/site/data/html_dir/2018/05/24/2018052401218.html?related_all">트럼프, 오후 7시 방송 인터뷰… "미북회담 언급"</a>
+	<em>박수현 기자</em></dt>
+</dl>
+	
+    </div>
+
+
+
+
+<div class="news_copyright">
+    <span class="news_copyright_SRC">Copyright ⓒ 조선일보 & Chosun.com</span>
+    <span class="news_copyright_links"><a href='http://newsplus.chosun.com/partner/' target='_blank'>제휴안내</a><a href='https://members.chosun.com/service/supp/pr_supp_1191_double.jsp' target='_blank'>구독신청</a></span>
+</div>
+<!-- base tpl update 20180430:v3 -->
+
+    </div><!-- news_body -->
+    <div class="clear"></div>
+</div><!-- news_body_all -->
+    
+
+    <script src="http://news.chosun.com/dhtm18/js/art/cs_art_admid_2018.js"></script>
+
+<!-- CMT changed ver2 start -->
+
+    <!-- cmt yes! yes! yes! -->
+    <div id="news_cmt_id" class="news_cmt">
+        <a name='bbs'></a>
+        <script type='text/javascript'>
+        var _100_SiteID = "WWW";
+        var _100_ArtID = "2018052300694";
+        var _100_Ver = new Date().getTime();
+        document.write ("<scr"+"ipt type='text/javascript' src='http://m100.chosun.com/svc/guest/comment_news.js?v="+_100_Ver+"' charset='euc-kr'></"+"script>");
+        </script>
+    </div><!-- news_cmt -->
+<!-- CMT changed ver2 end -->
+
+
+
+
+
+</article><!-- news_article -->
+
+<aside class="news_aside" id="news_aside_id">
+    <script src="http://news.chosun.com/dhtm18/js/art/cs_art_aside_2018.js"></script>
+</aside><!-- news_aside -->
+<div class="clear"></div>
+</div><!-- sticky_wrapper -->
+
+</div><!-- csContent -->
+
+<div class="news_today">
+        <script src="http://news.chosun.com/dhtm18/js/art/cs_art_newstoday_2018.js"></script>  
+</div><!-- news_today -->
+
+<script src="http://news.chosun.com/dhtm18/js/common/cs_footer_2018.js"></script>  
+
+<div class="news_go" id="news_go_id">
+    <a href="#" class="news_go_recent" id="news_go_recent_id"><span>내가 본 뉴스</span></a>
+    <a href="#top" class="news_go_top" id="news_go_top_id"><span>맨 위로</span></a>   
+</div><!-- news_go -->
+
+<div class="news_recent_read" id="news_recent_read_id">
+    <h4>내가 본 뉴스 <a href="#" class="close int_rotate" id="news_recent_read_closd_id" title="닫기">닫기</a></h4>
+    <script src="http://news.chosun.com/dhtm18/js/art/cs_art_recentnews_2018.js"></script>
+</div><!-- news_recent_read -->
+
+<div class="under_notice" id="under_notice"></div>
+
+<script src="http://news.chosun.com/dhtm18/js/art/cs_art_adbot_2018.js"></script>
+</div><!-- csWrap -->
+
+<script type='text/javascript'>
+var _like_siteid = "WWW";
+var _like_artid = "2018052300694";
+var _like_catid = "24";
+var _like_v = new Date().getTime();
+document.write ("<scr"+"ipt type='text/javascript' src='http://like.chosun.com/like_art.js?v="+_like_v+"'></"+"script>");
+</script>
+
+<script src="http://news.chosun.com/dhtm18/js/common/jquery.sticky-kit.min.js"></script>
+<script src="http://news.chosun.com/dhtm18/js/common/jquery.scrollbar.min.js"></script>
+<script src="http://news.chosun.com/dhtm18/js/common/jquery.bxslider.min_4212.js"></script>
+<script src="http://news.chosun.com/dhtm/js/screenfull.min.js"></script>
+<script src="http://news.chosun.com/dhtm18/js/art/cs_art_2018.js"></script>
+<script src="http://news.chosun.com/dhtm18/js/art/cs_art_2018_svc.js"></script>
+<script src="http://news.chosun.com/dhtm/js/read_c_news.js"></script>
+
+<!-- 개발작업하실 때 필요한 js는 svc.js에서 해주세요 / cs_art_2018.js 에서 disable 시켜야 할 부분이 있으면 알려주세요 -->
+
+<!--[if lt IE 8]>
+<script type="text/javascript" src="http://news.chosun.com/dhtm/js/browser_update.js"></script>
+<![endif]-->
+
+<!-- TPL ver.New_20180420 -->
+</body>
+</html>
