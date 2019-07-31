@@ -67,18 +67,3 @@ download.file(url,"D:/BigDataCampus/Rcrawl/page.txt")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
