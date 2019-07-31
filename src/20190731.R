@@ -1,10 +1,18 @@
 #20190731 텍스트 데이터 전처리 
 
-#install.packages("rJava")
+install.packages("rJava")
 
+library(rJava)
 library(RCurl)
 library(rvest)
 library(dplyr)
+library(xml2)
+library(lubridate)
+library(KoNLP)
+library(RHINO)
+library(rJava)
+
+
 
 
 # subtitle을 추출하는 코드 입니다. 
@@ -47,6 +55,116 @@ title<-page %>% html_node("title") %>% html_text()
 main<-page %>% html_nodes("#articleBodyContents") %>% html_text()
 write(main,file="Apple_news.txt")
 
+#----------------------------------------------------------------------------------------------------------
 
-title
-main
+
+
+url="https://news.naver.com/main/ranking/popularDay.nhn?rankingType=popular_day&date=20190728"
+news=read_html(url)
+
+# 카테고리 명칭 작성합니다.
+secion.names=c("Politics","Economy","Society","Life","World","IT")
+
+#헤더라인 5개를 각 카테로기 별로 입력하는 데이터 프레임을 만듭니다. 
+news.head=data.frame(head_1=c(1:6),head_2=NA,head_3=NA,head_4=NA,head_5=NA)
+
+# row name을 카테고리 명칭으로 변경(추출하는 csv에서 첫 번째 열에 나타나도록 합니다.)
+rownames(news.head)=secion.names
+
+
+for(i in 1:ncol(news.head)){ # 현재 6행이므로 6번 반복
+  findNum=paste0(".num",i)  # 헤드라인마다 번호가 다르므로 번호를 바꿀 수 있도록 합니다. 
+  nodeValue=html_nodes(news,findNum) #class가 6개 이므로 node 6개여야 합니다. 
+  
+  for(j in 1:nrow(news.head)){  # 정치~it 까지의 카테고리에 대한 for 문
+    # gsub()로 데이터표현을 바꿉니다. "\t" -> "" 로 바꿉니다.  
+    extracted.head=gsub("\t","",nodeValue[j]%>%html_text())%>%strsplit("\n")
+    trim.head=trimws(extracted.head[[1]])   # 글자 앞뒤의 빈공간을 엾애줍니다. 
+    selected.head=trim.head[-which(trim.head=="")]   # 공란으로 된 character를 제외한 나머지를 찾습니다.
+    if(selected.head[1]=="동영상기사"){  # 가끔 동영상 기사의 경우, 헤드보다 앞에 표시가 되도록 합니다. 
+      news.head[j,i]=selected.head[2]
+    }
+    else{
+      news.head[j,i]=selected.head[1]
+    }
+  }
+}
+
+write.csv(news.head,"popularNewsHeadlines.csv",row.names=T)
+news.head
+
+
+setDate<-ymd("2019-07-30")-days(0:365)
+setDate<-format(setDate,"%Y%m%d")
+
+for(d in 1:length(setDate)){
+  urlNews<-paste0("https://news.naver.com/main/ranking/popularDay.nhn?rankingType=popular_day&date=",setDate[d])
+  newsData<-read_html(urlNews)
+  
+  sectionName<-c("Policy","Economy","Society","Life","World","It")
+  newsHead=data.frame(head_1=c(1:6),head_2=NA,head_3=NA,head_4=NA,head_5=NA)
+  rownames(newsHead)<-sectionName
+  
+  for(i in 1:(ncol(newsHead))){
+    findNum<-paste0(".num",i)
+    nodeValue<-html_nodes(newsData,findNum)
+    
+    for(j in 1:nrow(newsHead)){
+      extractHead<-gsub("\t","",nodeValue[j] %>% html_text()) %>% strsplit("\n")
+      trimHead<-trimws(extractHead[[1]])
+      selectHead<-trimHead[-which(trimHead=="")]
+      if(selectHead[1]=="동영상기사"){
+        newsHead[j,i]<-selectHead[2]
+      }
+      else{
+        newsHead[j,i]<-selectHead[1]
+      }
+    }
+  }
+  write.csv(newsHead,paste0("poopularNewsHeadlines(",setDate[d],").csv"))
+}
+
+#---------------------------------------------------------------------------------------------
+
+# 네이버 금융
+
+url<-"https://finance.naver.com/item/board.nhn?code=005930&page=1"
+page<-read_html(url,encoding='euc-kr')
+page2<-html_nodes(page,'td.title a')
+page3<-html_attr(page2,'title')
+page4<-as.data.frame(page3)
+page4
+
+page5<-list()
+for(i in 1:10){
+  url<-paste("https://finance.naver.com/item/board.nhn?code=005930&page=",i,sep='')
+  page5[[i]]<-read_html(url,encoding='euc-kr') %>% html_nodes("td.title a") %>% html_attr('title')
+}
+
+write.csv(unlist(page5),'ddt.csv')
+page5
+
+
+#-----------------------------------------------------------------------------------------------
+
+#install.packages("KoNLP")
+#install.packages("rJava")
+
+
+setwd("D:/BigDataCampus/practiceData")
+txt<-readLines("sample.txt")
+
+
+# txt<-readLines()이므로 한줄씩 읽는다. 
+# lapply에서 한 문장씩 형태소를 분석해서 noun에 저장합니다. 
+noun<-lapply(txt,extractNoun)
+noun<-unlist(noun)
+noun
+
+install.packages("devtools")
+initRhino()
+noun2<-lapply(txt,getMorph,"noun")
+noun2<-unlist(noun2)
+noun2
+
+
