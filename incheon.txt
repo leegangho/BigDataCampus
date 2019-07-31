@@ -1,0 +1,1205 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<meta name="description" content="인천대학교에 오신것을 환영합니다." />
+	<meta name="keywords" content="인천대학교,인천대,incheon univercity" />
+	<meta name="author" content="Global IT " />
+	<meta name="google-site-verification" content="H7QL36Yiz1f_iLjwZePbxzHt-OWjPbqgNeUA6CWR6jY" />
+	<link rel="stylesheet" type="text/css" href="/mbshome/mbs/inu/css/incheon.css" />
+	<link rel="shortcut icon" href="/mbshome/mbs/inu/images/favicon_inu.ico">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+	
+	
+<!-- 20180731 Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123081914-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123081914-1');
+</script>
+	
+	
+	<!--[if lt IE 8]><link rel="stylesheet" href="http://www.inu.ac.kr/mbshome/mbs/inu/css/ie7.css" type="text/css" /><![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="http://www.inu.ac.kr/mbshome/mbs/inu/js/css3-mediaqueries.js"></script><![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="http://www.inu.ac.kr/mbshome/mbs/inu/js/html5shiv.js"></script><![endif]-->
+	<script type="text/javascript" src="/mbshome/mbs/inu/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/mbshome/mbs/inu/js/jns/index.js"></script>
+	<script src="https://use.fontawesome.com/ba8fb18035.js"></script>
+	<!--
+	<script type="text/javascript" src="js/jq.carousel.min.js"></script>
+	<script type="text/javascript" src="js/tab.js"></script>
+	<script type="text/javascript" src="js/jquery.globalIT.rolling.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jQuery.slide.js"></script>
+	<script type="text/javascript" src="js/jcarousellite_1.0.1.js"></script>
+	<script type="text/javascript" src="js/banner_5156.js"></script>
+	<script type="text/javascript" src="js/jquery.rollover.js"></script>
+	-->
+	<script type="text/javascript"  src="/mbshome/mbs/inu/js/jquery.bxslider.js" ></script>
+	<script type="text/javascript"  src="/mbshome/mbs/inu/js/main.js" ></script>
+	<!--
+	<script type="text/javascript" src="js/jquery.sliderkit.1.9.2.js" ></script>
+	-->
+	<title>인천대학교</title>
+
+</head>
+<body>
+<!--skip navigation-->
+<p class="skip">	
+	<a href="#section" title="본문 바로가기">본문 바로가기</a>
+	<a href="#gnb" title="주메뉴 바로가기">주메뉴 바로가기</a>
+	<a href="#footers" title="푸터 바로가기">푸터 바로가기</a>
+</p>
+<!--//skip navigation-->
+
+<div id="wrap"><div class="inner">
+	<!-- header -->
+	
+	
+
+
+
+
+
+<script type="text/javascript">
+    function searchEngine() {
+    	if( document.searchForm.qt.value == '' ) {
+    		alert('검색어를 입력하십시오.');
+    		searchForm.qt.focus();
+    		return false;
+    	}else{
+    		document.searchForm.qt.value = trim(document.searchForm.qt.value);
+    	}
+    	return true;
+    }
+
+    //정규 표현식을 사용하여 화이트스페이스를 빈문자로 전환
+    function trim(str){
+    	str = str.replace(/^\s*/,'').replace(/\s*$/, '');
+    	return str; //변환한 스트링을 리턴.
+    }
+    
+	function jf_ssoCheckPopup(href){
+		window.open(href,"ssoCheckPopup","width=1200,height=800,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,left=150,top=150");
+	}
+    
+	
+	/* 20190208 스크롤 down 메뉴바 고정 */
+	$(window).scroll(function(){
+		if($(window).scrollTop() >= 200){
+			$('.breadcrumb').css({'top' : '0'  ,  'position': 'fixed'  ,  'width': '100%'});
+			$('.header_bottom').css({'top' : '20px'  ,  'position': 'fixed'  ,  'width': '100%'});
+		}else{
+			$('.breadcrumb').removeAttr('style');
+			$('.header_bottom').removeAttr('style');
+		}
+
+		//topbtn fade
+		if($(window).scrollTop() >= 400){
+			$('.topbtn').css('display','block');
+		}else{
+			$('.topbtn').css('display','none');
+		}
+
+		$('.topbtn').click(function(){
+			$('body,html').stop().animate({'scrollTop':0});
+		})//topbtn click	
+	});
+	
+	$(document).ready(function() {
+
+	});
+	
+</script>
+<header>
+	<!--header_top-->
+	<div class="header_top">
+		<div class="header_inner">
+			<strong>INCHEON NATIONAL UNIVERSITY</strong>
+			<div class="header_top_util">
+				<p>
+					<a href="/mbshome/mbs/inu/subview.do?id=inu_010902000000" lang="en" title="GUEST" id="GUEST">GUEST</a>
+					<a href="http://www.inu.ac.kr/user/indexMain.do?siteId=community" target="_blank" title="커뮤니티">커뮤니티</a>	
+				</p>
+				<dl class="lang">
+					<dt><a href="#" title="한국어">한국어</a><a href="#" title="한국어" class="globe"><span class="blind">한국어</span></a></dt>
+					<dd>
+						<div>
+							<a href="/mbshome/mbs/inuengl/index.html" target="_blank" title="ENGLISH">ENGLISH</a>
+							<a href="/mbshome/mbs/inuchil/index.html" target="_blank" title="中文">中文</a>
+							<a href="/mbshome/mbs/inujpn/index.do" target="_blank" title="日本語">日本語</a>
+						</div>
+					</dd>
+				</dl>
+				<p>
+					
+						<a title="로그인" href="http://portal.inu.ac.kr/enview/user/login.face?redirectUrl=http://www.inu.ac.kr/ssoInPopup.do?siteId=inu" onclick="jf_ssoCheckPopup(this.href);return false;">로그인</a>
+					
+				</p>
+				<p>
+					<a href="http://portal.inu.ac.kr" target="_blank" title="포털" id="portal"><img src="/mbshome/mbs/inu/images/layout/ico_enter.png" alt="">Portal</a>
+				</p>
+				<form name="searchForm" method="post" action="http://search.inu.ac.kr/RSA/front/Search.jsp" target="_blank" title="새창으로 인천대학교 통합검색 페이지 이동" onSubmit="return searchEngine()">
+					<fieldset>
+						<div class="form_group">
+							<legend>통합검색</legend>
+							<input type="text" name="qt" id="totalSearch" title="통합검색어" class="search_input"/>
+							<button type="submit" class="search_submit"><span class="fa fa-search"></span></button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--header_top end-->
+
+	<!--header_center-->
+	<div class="header_center">
+		<div class="header_inner">
+			<h1><a href="/mbshome/mbs/inu/index.do" title="INU 인천대학교"><img src="/mbshome/mbs/inu/images/layout/logo.png" alt="INU 인천대학교" /></a></h1>
+			<ul class="util">
+				<li><a href="http://admission.inu.ac.kr" target="_blank" title="입학안내">입학안내</a></li>
+				<li><a href="http://www.inu.ac.kr/user/indexMain.do?command=&amp;siteId=professor"  target="_blank" title="교수채용">교수채용</a></li>
+				<li><a href="http://www.inu.ac.kr/user/indexMain.do?siteId=staff" target="_blank" title="직원채용">직원채용</a></li>
+				<li><a href="https://lib.inu.ac.kr" target="_blank" title="학산도서관">학산도서관</a></li>
+				<li><a href="https://webmail.inu.ac.kr" target="_blank" title="새창으로 웹메일 열림" >웹메일</a></li>
+				<li><a href="http://fund.inu.ac.kr" target="_blank" title="발전기금">발전기금</a></li>
+				<li><a href="https://uni.webminwon.com/wm1.0/jsp/index/inchundivide.jsp" target="_blank" title="증명서발급">증명서발급</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--header_center end-->
+
+	<!--breadcrumb-->
+	<div class="breadcrumb">
+		<div class="header_inner">
+		</div>
+	</div>
+	<!--breadcrumb end-->
+
+	<!--hader_bottom-->
+	<div class="header_bottom">
+		<div class="header_inner">
+			
+
+    
+    <nav id="gnb" name="gnb">
+			<ul role="menu">
+				<li role="menuitem"><a href="/mbshome/mbs/inu/subview.do?id=inu_030000000000" title="대학">대학</a>
+					<div role="group" aria-expanded="“false”">
+						<ul>						
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030000000000" title="전체대학"><span>전체대학</span></a></li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030100000000" title="인문대학"><span>인문대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=AIA1&amp;siteId=inu&amp;id=inu_030101000000" title="국어국문학과">국어국문학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=AIB1&amp;siteId=inu&amp;id=inu_030103000000" title="영어영문학과">영어영문학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=AIE1&amp;siteId=inu&amp;id=inu_030102000000" title="독어독문학과">독어독문학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=AIF1&amp;siteId=inu&amp;id=inu_030105000000" title="불어불문학과">불어불문학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=AIC1&amp;siteId=inu&amp;id=inu_030104000000" title="일어일문학과">일어일문학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=AID1&amp;siteId=inu&amp;id=inu_030106000000" title="중어중국학과">중어중국학과</a></li>
+								</ul>
+							</li>						
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030200000000" title="자연과학대학"><span>자연과학대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=BKA1&amp;siteId=inu&amp;id=inu_030201000000" title="수학과">수학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=BKB1&amp;siteId=inu&amp;id=inu_030202000000" title="물리학과">물리학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=BKC1&amp;siteId=inu&amp;id=inu_030203000000" title="화학과">화학과</a></li>
+								<!-- <li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=BLC1&amp;siteId=inu&amp;id=inu_030204000000" title="소비자ㆍ아동학과">소비자ㆍ아동학과</a></li> -->
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=BLB1&amp;siteId=inu&amp;id=inu_030205000000" title="패션산업학과">패션산업학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000189&amp;siteId=inu&amp;id=inu_030206000000" title="해양학과">해양학과</a></li>
+								</ul>
+							</li>																	
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030300000000" title="사회과학대학"><span>사회과학대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000144&amp;siteId=inu&amp;id=inu_030303000000" title="사회복지학과">사회복지학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=CFD1&amp;siteId=inu&amp;id=inu_030302000000" title="신문방송학과">신문방송학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000053&amp;siteId=inu&amp;id=inu_030304000000" title="문헌정보학과">문헌정보학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000054&amp;siteId=inu&amp;id=inu_030306000000" title="창의인재개발학과">창의인재개발학과</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030400000000" title="글로벌법정경대학"><span>글로벌법정경대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=DA01&amp;siteId=inu&amp;id=inu_030401000000" title="법학과">법학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000451&amp;siteId=inu&amp;id=inu_030402000000" title="행정학과">행정학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000452&amp;siteId=inu&amp;id=inu_030403000000" title="정치외교학과">정치외교학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000454&amp;siteId=inu&amp;id=inu_030404000000" title="경제학과">경제학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000456&amp;siteId=inu&amp;id=inu_030405000000" title="무역학부">무역학부</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000675&amp;siteId=inu&amp;id=inu_030406000000" title="소비자학과">소비자학과</a></li>
+								</ul>
+							</li>						
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030500000000" title="공과대학"><span>공과대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000147&amp;siteId=inu&amp;id=inu_030501000000" title="기계공학과">기계공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000151&amp;siteId=inu&amp;id=inu_030503000000" title="메카트로닉스공학">메카트로닉스공학</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=EPB1&amp;siteId=inu&amp;id=inu_030504000000" title="전기공학과">전기공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=EPC1&amp;siteId=inu&amp;id=inu_030505000000" title="전자공학과">전자공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=EPG1&amp;siteId=inu&amp;id=inu_030506000000" title="산업경영공학과">산업경영공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000076&amp;siteId=inu&amp;id=inu_030507000000" title="신소재공학과">신소재공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000075&amp;siteId=inu&amp;id=inu_030508000000" title="안전공학과">안전공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000055&amp;siteId=inu&amp;id=inu_030509000000" title="에너지화학공학과">에너지화학공학과</a></li>
+								</ul>
+							</li>							
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030600000000" title="정보기술대학"><span>정보기술대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000077&amp;siteId=inu&amp;id=inu_030601000000" title="컴퓨터공학부">컴퓨터공학부</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=IAB1&amp;siteId=inu&amp;id=inu_030602000000" title="정보통신공학과">정보통신공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000042&amp;siteId=inu&amp;id=inu_030603000000" title="임베디드시스템공학과">임베디드시스템공학과</a></li>
+								</ul>
+							</li>	
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030700000000" title="경영대학"><span>경영대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=JA01&amp;siteId=inu&amp;id=inu_030701000000" title="경영학부">경영학부</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000057&amp;siteId=inu&amp;id=inu_030702000000" title="세무회계학과">세무회계학과</a></li>
+								<li><a href="http://contract.inu.ac.kr/web/university/universeView.php?idx=22" target="_blank" title="테크노경영학과">테크노경영학과</a></li>
+								<li><a href="http://contract.inu.ac.kr/web/university/universeView.php?idx=20" target="_blank" title="바이오경영학과">바이오경영학과</a></li>
+								</ul>
+							</li>						
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030900000000" title="예술체육대학"><span>예술체육대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000192&amp;siteId=inu&amp;id=inu_030907000000" title="조형예술학부">조형예술학부</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000195&amp;siteId=inu&amp;id=inu_030903000000" title="디자인학부">디자인학부</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000196&amp;siteId=inu&amp;id=inu_030904000000" title="공연예술학과">공연예술학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000197&amp;siteId=inu&amp;id=inu_030905000000" title="체육학부">체육학부</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000191&amp;siteId=inu&amp;id=inu_030906000000" title="운동건강학부">운동건강학부</a></li>
+								</ul>
+							</li>						
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_031000000000" title="사범대학"><span>사범대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000064&amp;siteId=inu&amp;id=inu_031001000000" title="국어교육과">국어교육과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000065&amp;siteId=inu&amp;id=inu_031002000000" title="영어교육과">영어교육과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=AIB1&amp;siteId=inu&amp;id=inu_031003000000" title="일어교육과">일어교육과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000067&amp;siteId=inu&amp;id=inu_031004000000" title="수학교육과">수학교육과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000068&amp;siteId=inu&amp;id=inu_031005000000" title="체육교육과">체육교육과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000069&amp;siteId=inu&amp;id=inu_031006000000" title="유아교육과">유아교육과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000070&amp;siteId=inu&amp;id=inu_031007000000" title="역사교육과">역사교육과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000071&amp;siteId=inu&amp;id=inu_031008000000" title="윤리교육과">윤리교육과</a></li>
+								</ul>
+							</li>						
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_031100000000" title="도시과학대학"><span>도시과학대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000073&amp;siteId=inu&amp;id=inu_031101000000" title="도시행정학과">도시행정학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=D00062&amp;siteId=inu&amp;id=inu_031104000000" title="도시공학과">도시공학과</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000156&amp;siteId=inu&amp;id=inu_031102000000" title="건설환경공학부(건설환경공학)">건설환경공학부<br>(건설환경공학)</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000157&amp;siteId=inu&amp;id=inu_031103000000" title="건설환경공학부(환경공학)">건설환경공학부<br>(환경공학)</a></li>	
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000160&amp;siteId=inu&amp;id=inu_031105000000" title="도시건축학부(건축공학)">도시건축학부<br>(건축공학)</a></li>								
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000159&amp;siteId=inu&amp;id=inu_031106000000" title="도시건축학부(도시건축학)">도시건축학부<br>(도시건축학)</a></li>
+								</ul>
+							</li>											
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_031200000000" title="생명과학기술대학"><span>생명과학기술대학</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000185&amp;siteId=inu&amp;id=inu_031202000000" title="생명과학부(분자의생명전공)">생명과학부<br>(분자의생명전공)</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000184&amp;siteId=inu&amp;id=inu_031201000000" title="생명과학부(생명과학전공)">생명과학부<br>(생명과학전공)</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000187&amp;siteId=inu&amp;id=inu_031203000000" title="생명공학부(생명공학전공)">생명공학부<br>(생명공학전공)</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=0000188&amp;siteId=inu&amp;id=inu_031204000000" title="생명공학부(나노바이오전공)">생명공학부<br>(나노바이오전공)</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030800000000" title="동북아국제통상학부"><span>동북아국제통상학부</span></a>
+								<ul>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=KAA1&amp;siteId=inu&amp;id=inu_030801000000" title="동북아통상전공">동북아통상전공</a></li>
+								<li><a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=D00058&amp;siteId=inu&amp;id=inu_030802000000" title="한국통상전공">한국통상전공</a></li>
+								</ul>
+							</li>
+							<li><a href="http://contract.inu.ac.kr" target="_blank" title="계약학과"><span>계약학과</span></a></li>
+						</ul>
+					</div>
+				</li>
+				<li role="menuitem"><a href="/mbshome/mbs/inu/subview.do?id=inu_040900000000" title="대학원">대학원</a>
+					<div role="group" aria-expanded="“false”">
+						<ul>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_040900000000" title="대학원전체"><span>대학원전체</span></a></li>
+							<li><a href="http://grad.inu.ac.kr/ssoIn.do?siteId=grad" target="_blank" title="일반대학원"><span>일반대학원</span></a></li>
+							<li><a href="http://inugsl.inu.ac.kr/ssoIn.do?siteId=gsl" target="_blank" title="동북아물류대학원"><span>동북아물류대학원</span></a></li>
+							<li><a href="http://dept.inu.ac.kr/ssoIn.do?siteId=dept" target="_blank" title="교육대학원"><span>교육대학원</span></a></li>
+							<li><a href="http://gradpadm.inu.ac.kr/ssoIn.do?siteId=gradpadm" target="_blank" title="정책대학원"><span>정책대학원</span></a></li>
+							<li><a href="http://industry.inu.ac.kr/ssoIn.do?siteId=industry" target="_blank" title="공학대학원"><span>공학대학원</span></a></li>
+							<li><a href="http://information.inu.ac.kr/ssoIn.do?siteId=information" target="_blank" title="정보기술대학원"><span>정보기술대학원</span></a></li>
+							<li><a href="http://business.inu.ac.kr/ssoIn.do?siteId=business" target="_blank" title="경영대학원"><span>경영대학원</span></a></li>
+							<li><a href="http://cul.inu.ac.kr/ssoIn.do?siteId=cul" target="_blank" title="문화대학원"><span>문화대학원</span></a></li>
+						</ul>
+					</div>
+				</li>
+				<li role="menuitem"><a href="/mbshome/mbs/inu/subview.do?id=inu_050101010000" title="대학생활">대학생활</a>
+					<div role="group" aria-expanded="“false”">
+						<ul>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050101010000" title="학생지원"><span>학생지원</span></a>
+								<ul>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050101010000" title="장학금">장학금</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050102010000" title="등록금">등록금</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050103000000" title="증명발급">증명발급</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050104000000" title="학생증발급">학생증발급</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050105010000" title="병무행정 / 예비군">병무행정 / 예비군</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050108010000" title="IT서비스">IT서비스</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050109000000" title="편의/복지">편의/복지</a></li>
+								</ul>
+								<ul>									
+									<li><a href="/com/cop/mainWork/foodList1.do?siteId=inu&amp;id=inu_050110010000" title="식당메뉴">식당메뉴</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050111010000" title="생활시설">생활시설</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050112000000" title="스포츠센터">스포츠센터</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050113010000" title="보건진료소">보건진료소</a></li>
+									<!--<li><a href="/cop/facilityUniv/facilityUnivUserList.do?siteId=inu&amp;deptSeq=203395&amp;id=inu_050114000000" title="시설예약">시설예약</a></li>-->
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050115010000" title="장애학생지원센터">장애학생지원센터</a></li>
+								</ul>
+							</li>						
+							<li><a href="/cop/haksa/haksaScheduleRecordList.do?handle=140774&amp;siteId=inu&amp;year=2019&amp;id=inu_050201000000" title="학사안내"><span>학사안내</span></a>
+								<ul>
+									<li><a href="http://www.inu.ac.kr/cop/haksa/haksaScheduleRecordList.do?handle=140774&amp;siteId=inu&amp;year=2019&amp;id=inu_050201000000" title="학사일정">학사일정</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050202000000" title="수강신청">수강신청</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050203000000" title="재수강/재이수">재수강/재이수</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050204000000" title="시험/성적">시험/성적</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050205000000" title="계절학기">계절학기</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050206000000" title="평생교육사">평생교육사</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050207000000" title="휴·복학">휴·복학</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050208000000" title="부전공/복수전공">부전공/복수전공</a></li>									
+									<!-- <li><a href="/mbshome/mbs/inu/subview.do?id=inu_050218000000" title="복수학위제">복수학위제</a></li> -->
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050220000000" title="제적">제적</a></li>
+								</ul>
+								<ul>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050209000000" title="연계전공">연계전공</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050210000000" title="전과/전공배정">전과/전공배정</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050211000000" title="재입학">재입학</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050212000000" title="학사징계">학사징계</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050213000000" title="영어졸업인증제">영어졸업인증제</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050214000000" title="수료/졸업">수료/졸업</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050215000000" title="학점교류안내">학점교류안내</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050219000000" title="학적부기재사항정정">학적부기재사항정정</a></li>
+									<li><a href="/user/boardList.do?boardId=48438&amp;siteId=inu&amp;id=inu_050216000000" title="양식자료실">양식자료실</a></li>
+								</ul>
+							</li>
+							<li><a href="/cop/foreign/courseClassMainList.do?siteId=lang&amp;codyMenuSeq=104461&amp;id=inu_050301000000" title="열린강좌"><span>열린강좌</span></a>
+								<ul>
+									<li><a href="/cop/foreign/courseClassMainList.do?siteId=lang&amp;codyMenuSeq=104461&amp;id=inu_050301000000" title="글로벌언어문화원">글로벌언어문화원</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050302000000" title="교육혁신원">교육혁신원</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050303000000" title="인천한국어학당">인천한국어학당</a></li>
+									<li><a href="/cop/ciui/courseHakgiClassMainList.do?siteId=ciui&amp;codyMenuSeq=100735&amp;id=inu_050304000000" title="공자학원">공자학원</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050305000000" title="평생교육원">평생교육원</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050306000000" title="정보전산원">정보전산원</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050307000000" title="스포츠센터">스포츠센터</a></li>
+								</ul>
+							</li>						
+							<li><a href="http://we.incheon.ac.kr/xe/" target="_blank" title="총학생회"><span>총학생회</span></a></li>						
+							<li><a href="/cop/groupMng/groupMngCategory.do?id=inu_050500000000" title="동아리"><span>동아리</span></a></li>
+						</ul>						
+					</div>
+				</li>
+				<li role="menuitem"><a href="/mbshome/mbs/inu/subview.do?id=inu_060100000000" title="연구/산학">연구/산학</a>
+					<div role="group" aria-expanded="“false”">
+						<ul>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_060100000000" title="연구처"><span>연구처</span></a></li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_060200000000" title="산학협력단"><span>산학협력단</span></a></li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_060300000000" title="기술지주회사"><span>기술지주회사</span></a></li>
+							<li><a href="/com/cop/resPatentDeptSearch.do?id=inu_060401000000" title="연구인력POOL"><span>연구인력POOL</span></a>
+								<ul>
+									<li><a href="/com/cop/resPatentDeptSearch.do?id=inu_060401000000" title="소속별">소속별</a></li>
+									<li><a href="/com/cop/resPatentResSearch.do?id=inu_060402000000" title="연구분야">연구분야</a></li>
+									<li><a href="/com/cop/resPatentNameSearch.do?id=inu_060403000000" title="인명검색">인명검색</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_060800000000" title="공동기기원"><span>공동기기원</span></a></li>
+							<li><a href="http://www.inu.ac.kr/copykiller.jsp" title="카피킬러"  target="_blank" ><span>표절검사서비스</span></a></li>
+						</ul>
+					</div>
+				</li>
+				<li role="menuitem"><a href="/user/boardList.do?boardId=48494&amp;siteId=inu&amp;id=inu_070101000000"  title="인천대소식">인천대소식</a>
+					<div role="group" aria-expanded="“false”">
+						<ul>	 
+							<li><a href="/user/boardList.do?boardId=48494&amp;siteId=inu&amp;id=inu_070101000000" title="인천대뉴스"><span>인천대뉴스</span></a>
+								<ul>
+								<li><a href="/user/boardList.do?boardId=48494&amp;siteId=inu&amp;id=inu_070101000000" title="INU NEWS">INU NEWS</a></li>
+								<li><a href="/mbshome/mbs/inu/subview.do?id=inu_070102000000" title="언론속의 인천">언론속의 인천</a></li>
+								</ul>
+							</li>
+							<li><a href="/user/boardList.do?boardId=48510&amp;siteId=inu&amp;id=inu_070201000000" title="공지사항"><span>공지사항</span></a>
+								<ul>
+									<li><a href="/user/boardList.do?boardId=48510&amp;siteId=inu&amp;id=inu_070201000000" title="전체">전체</a></li>
+									<li><a href="/user/boardList.do?boardId=49211&amp;siteId=inu&amp;id=inu_070202000000" title="학사">학사</a></li>
+									<li><a href="/user/boardList.do?boardId=197438&amp;siteId=inu&amp;id=inu_070211000000" title="학점교류">학점교류</a></li>
+									<li><a href="/user/boardList.do?boardId=49219&amp;siteId=inu&amp;id=inu_070203000000" title="일반">일반</a></li>
+									<li><a href="/user/boardList.do?boardId=49227&amp;siteId=inu&amp;id=inu_070204000000" title="장학금">장학금</a></li>									
+									<li><a href="/user/boardList.do?boardId=307799&amp;siteId=inu&amp;id=inu_070210000000" title="등록금 납부">등록금 납부</a></li>
+								</ul>
+								<ul>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_070206010000" title="계약">계약</a></li>
+									<li><a href="/user/boardList.do?boardId=49243&amp;siteId=inu&amp;id=inu_070207000000" title="행사">행사</a></li>
+									<li><a href="/user/boardList.do?boardId=307783&amp;siteId=inu&amp;id=inu_070208000000" title="교육시험">교육시험</a></li>
+									<li><a href="/user/boardList.do?boardId=307791&amp;siteId=inu&amp;id=inu_070209000000" title="봉사">봉사</a></li>
+									<li><a href="/user/boardList.do?boardId=49235&amp;siteId=inu&amp;id=inu_070205000000" title="모집">모집</a></li>
+									<li><a href="/user/recruitList.do?siteId=inu&amp;id=inu_070212000000" title="채용정보">채용정보</a></li>
+								</ul>
+							</li>
+							<li><a href="/cop/campusTour/tourGroupTimeTable.do?siteId=inu&amp;id=inu_070301000000" title="학교행사"><span>학교행사</span></a></li>
+							<li><a href="/user/addSurvey.do?handle=-11&amp;siteId=inu&amp;id=inu_070400000000" title="설문조사"><span>설문조사</span></a></li>
+						</ul>
+					</div>
+				</li>
+				<li role="menuitem"><a href="/mbshome/mbs/inu/subview.do?id=inu_010100000000"  title="대학정보">대학정보</a>
+					<div role="group" aria-expanded="“false”">
+						<ul>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010100000000" title="학교법인"><span>학교법인</span></a></li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010201000000" title="총장실"><span>총장실</span></a>
+									<ul>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010201000000" title="인사말">인사말</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010202000000" title="프로필">프로필</a></li>
+									<li><a href="/user/boardList.do?boardId=200912&amp;siteId=inu&amp;page=1&amp;boardType=07&amp;parent=&amp;boardSeq=&amp;command=write&amp;id=inu_010203000000" title="총장에게 바란다">총장에게 바란다</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010204000000" title="역대총장">역대총장</a></li>
+									<li><a href="/user/boardList.do?boardId=416663&amp;siteId=inu&amp;id=inu_010205000000" title="총장 연설모음">총장 연설모음</a></li>
+									<li><a href="/user/boardList.do?boardId=416674&amp;siteId=inu&amp;id=inu_010206000000" title="최근동정 코너">최근동정 코너</a></li>
+									</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010301000000" title="발자취"><span>발자취</span></a></li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010400000000" title="대학비전"><span>대학비전</span></a></li>
+							<li><a href="/user/boardList.do?boardId=197454&amp;siteId=inu&amp;id=inu_010500000000" title="대학운영계획"><span>대학운영계획</span></a></li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010601000000" title="대학현황"><span>대학현황</span></a>
+								<ul>
+								<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010601000000" title="대학 주요현황">대학 주요현황</a></li>
+								<li><a href="/user/boardList.do?boardId=47940&amp;siteId=inu&amp;id=inu_010602000000" title="예결산 공고">예결산 공고</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010701000000" title="조직 및 기관"><span>조직 및 기관</span></a>
+								<ul>
+								<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010701000000" title="조직도">조직도</a></li>
+								<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010703000000" title="부속기관">부속기관</a></li>
+								<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010704010000" title="부설연구소 및 기관">부설연구소 및 기관</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010801000000" title="UI소개"><span>UI소개</span></a>
+								<ul>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010801000000" title="심벌">심벌</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010802000000" title="로고 타입">로고 타입</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010803000000" title="색상 및 서체">색상 및 서체</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010804000000" title="사용금지규정">사용금지규정</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010805000000" title="엠블럼">엠블럼</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010806000000" title="캐릭터">캐릭터</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010807000000" title="슬로건">슬로건</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010808000000" title="40주년 엠블럼">40주년 엠블럼</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010902000000" title="대학홍보관"><span>대학홍보관</span></a>
+								<ul>
+								<li><a href="/user/boardList.do?boardId=47948&amp;siteId=inu&amp;id=inu_010901000000" title="홍보동영상">홍보동영상</a></li>
+								<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010902000000" title="대학요람">대학요람</a></li>
+								<li><a href="/user/boardList.do?boardId=197572&amp;siteId=inu&amp;id=inu_010903010000" title="웹브로셔">웹브로셔</a></li>
+								<li><a href="/user/boardList.do?boardId=438999&amp;siteId=inu&amp;id=inu_010907000000" title="뉴스레터">뉴스레터</a></li>
+								<li><a href="/user/boardList.do?boardId=48412&amp;siteId=inu&amp;id=inu_010905000000" title="캠퍼스 갤러리">캠퍼스 갤러리</a></li>
+								<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010906010000" title="캠퍼스 투어">캠퍼스 투어</a></li>
+								</ul>
+							</li>
+							<li><a href="/cop/haksaStaffSearch/staffSearch.do?id=inu_011001000000&amp;section=all" title="교내전화/메일"><span>교내전화/메일</span></a>
+								<ul>
+									<li><a href="/cop/haksaStaffSearch/staffSearch.do?id=inu_011001000000&amp;section=all" title="전체">전체</a></li>
+									<li><a href="/cop/haksaStaffSearch/staffSearch.do?id=inu_011002000000&amp;section=1" title="대학본부">대학본부</a></li>
+									<li><a href="/cop/haksaStaffSearch/staffSearch.do?id=inu_011003000000&amp;section=2" title="대학">대학</a></li>
+									<li><a href="/cop/haksaStaffSearch/staffSearch.do?id=inu_011004000000&amp;section=3" title="대학원">대학원</a></li>
+									<li><a href="/cop/haksaStaffSearch/staffSearch.do?id=inu_011005000000&amp;section=4" title="부속기관">부속기관</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/campusmap/contents/songdo.jsp" onclick="window.open(this.href,'popup','width=1000,height=744,top=,left=');return false;" title="캠퍼스맵"><span>캠퍼스맵</span></a></li>
+							
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010100000000" title="위원회안내"><span>위원회안내</span></a>
+								<ul>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010100000000" title="이사회">이사회</a></li>
+									<li><a href="/user/indexMain.do?siteId=council" title="평의원회" target="_blank">평의원회</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_090300000000" title="교육연구위원회">교육연구위원회</a></li>
+									<li><a href="/user/boardList.do?boardId=465243&siteId=inu&id=inu_090400000000" title="재무경영위원회">재무경영위원회</a></li>
+									<li><a href="/user/boardList.do?boardId=467553&siteId=inu&id=inu_090500000000" title="등록금심의위원회">등록금심의위원회</a></li>
+								</ul>
+							</li>
+							
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011201000000" title="오시는길"><span>오시는길</span></a>
+								<ul>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011201000000" title="전체">전체</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011202000000" title="지하철">지하철</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011203000000" title="버스">버스</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011205000000" title="셔틀버스">셔틀버스</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011206000000" title="자가용">자가용</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011207000000" title="주차정보">주차정보</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011208000000" title="제물포캠퍼스">제물포캠퍼스</a></li>
+									<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011209000000" title="미추홀캠퍼스">미추홀캠퍼스</a></li>
+								</ul>
+							</li>
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011300000000" title="대학발전기금"><span>대학발전기금</span></a></li>
+							<li><a href="/user/boardList.do?boardId=48413&amp;map;siteId=inu&amp;id=inu_011401010000" title="INU 신문고"><span>INU 신문고</span></a>
+								<ul>
+								<li><a href="/user/boardList.do?boardId=48413&amp;map;siteId=inu&amp;id=inu_011401010000" title="청렴센터">청렴센터</a></li>
+								<li><a href="/user/boardList.do?handle=391385&amp;siteId=inu&amp;id=inu_011404010000" title="정책제안방">정책제안방</a></li>
+								<li><a href="/user/boardList.do?handle=438914&amp;siteId=inu&amp;id=inu_011402000000" title="E-감사실">E-감사실</a></li>
+<!-- 								<li><a href="/user/boardList.do?boardId=438914&siteId=inu&page=1&boardType=07&parent=&boardSeq=&command=write&id=inu_011402000000" title="E-감사실">E-감사실</a></li> -->
+								</ul>
+							</li>
+							<li><a href="http://rule.inu.ac.kr/" target="_blank" title="학칙 및 규정"><span>학칙 및 규정</span></a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div class="share">
+				<ul>
+					<li>
+						<a class="btn_share" title="공유하기" href="#"><img src="/mbshome/mbs/inu/images/layout/ico_share.png" alt="" />공유하기</a>
+						<ul class="share_menu">
+								<li>
+									<a title="페이스북으로 공유" href="#"   onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL)); return false;" " target="_blank" class="btn_social">
+										<i class="fa fa-facebook"></i>Post
+									</a>
+								</li>
+								<li>
+									<a title="트위터로 공유" href="#"  onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;" target="_blank" class="btn_social"> 
+										<i class="fa fa-twitter"></i>Tweet
+									</a>
+								</li>
+								<li>
+									<a title="구글로 공유" href="#"  onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;" class="btn-social"  target="_blank" class="btn_social">
+										<i class="fa fa-google-plus"></i>Google
+									</a>
+								</li>
+								<li>
+									<a title="링크드인으로 공유" href="#"  onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;" target="_blank" class="btn_social">
+										<i class="fa fa-linkedin"></i>Network
+									</a>
+								</li>
+								<li>
+									<a title="핀터레스트로 공유" href="#"  onclick="window.open('http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(document.URL) + '&amp;description=' +  encodeURIComponent(document.title)); return false;"   target="_blank" class="btn_social">
+										<i class="fa fa-pinterest"></i>Pin
+									</a>
+								</li>
+								<li>
+									<a title="이메일로 공유" href="#"   onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=' +  encodeURIComponent(document.URL)); return false;" target="_blank" class="btn-social">
+										<i class="fa fa-envelope"></i>eMail
+									</a>
+								</li>
+							</ul>					
+					</li>
+				</ul>
+            </div>
+			
+			
+		</nav>
+ 
+		</div>
+	</div>
+	<!--hader_bottom end-->
+
+</header>
+
+	<!-- //header -->
+	<!--contents-->
+
+		<!--keyVisual-->
+		<div class="keyVisual"><div>
+  		<p class="mainVisual1"></p>
+<!-- 			<p class="mainVisual2"><img src="/mbshome/mbs/inu/images/main/txt2.png" alt="INU, Only One University - 기술과 인성을 갖춘, 미래를 선도하는 창의적인 인재를 육성합니다." /></p> -->
+<!-- 			<p class="mainVisual3"><img src="/mbshome/mbs/inu/images/main/txt3.png" alt="시간에서 미래로, 공간에서 세계로 - 바이오와 스마트뮬류ㅣ, 미래시티, 기후변화 등 미래인류를 위한 연구에 역량을 집중하고 있습니다." /></p> -->
+<!-- 			<p><img src="/mbshome/mbs/inu/images/main/img_keyVisual_1.jpg" alt="미래와 세계속으로 도약하는 인천대 - 글로벌 시대 변화수용과 예측을 통해 세계표준을 주도하는 I-SKY 브랜드를 창조합니다." /></p> -->
+<!-- 			<p><img src="/mbshome/mbs/inu/images/main/img_keyVisual_2.jpg" alt="INU, Only One University - 기술과 인성을 갖춘, 미래를 선도하는 창의적인 인재를 육성합니다." /></p> -->
+<!-- 			<p><img src="/mbshome/mbs/inu/images/main/img_keyVisual_3.jpg" alt="시간에서 미래로, 공간에서 세계로 - 바이오와 스마트물류, 미래시티, 기후변화 등 미래인류를 위한 연구에 역량을 집중하고 있습니다." /></p> -->
+			
+		</div></div>
+		<script type="text/javascript">
+			$(".keyVisual > div").bxSlider({
+    			mode: 'fade',
+    			controls:false,
+    			auto:true,
+    			pause:5000,
+    			autoHover:true
+    		});
+		</script>
+		<!--//keyVisual-->
+
+		<div class="main_section" id="section">
+			<div class="inu_news" id="newsInfo">
+				<!-- INU NEWS -->
+				<article class="keyIssue">
+				</article>
+				<!-- //INU NEWS -->
+			<!-- 배너추가 -->
+			<article class="project1List">
+				<h2></h2>
+				<!--드래그  배너 -->
+				<div class="dragBanner">
+					<div class="rollContainer" id="rollContainer1">
+						
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+	 
+    
+	<script type="text/javascript">
+		function jf_popupView(seq,type,link,width,height,top,left,siteId){
+			if(type == "linkType"){
+				window.open(link);
+			}else{
+				var url = "/user/popupView.do?siteId="+siteId+"&configSeq=137375&popupSeq="+seq;
+				window.open(url,'popup_view','width='+width+',height='+height+',top='+top+',left='+left+', scrollbars=no');
+			}
+		}
+
+	</script><noscript></noscript>
+	
+	
+	
+	
+	
+ <div id="bannerzoneWrap"> 
+   <div id="bannerzone"> 
+        <ul id="playstop">
+           <!-- <li><a class="b_btn" href="#js_pop" onclick="javascript:js_pop.move_left(); return false"><img alt="이전" src="/mbshome/mbs/inu/images/focus_left_icon.gif"></a></li> --> 
+            <li id="pzStop"><a id="stopFocus" href="#stop" onclick="javascript:js_pop.pause(); return false;"><img alt="정지" id="popup_pause_img" src="/mbshome/mbs/inu/images/main/popup_stop.png"></a></li> 
+            <li id="pzStart" style="display:none"><a id="startFocus"  href="#play" onclick="javascript:js_pop.resume(); return false;"><img alt="시작" src="/mbshome/mbs/inu/images/main/popup_replay.png"></a></li> 
+            <!-- <li><a href="#js_pop" onclick="javascript:js_pop.move_right();return false"><img alt="다음" src="/mbshome/mbs/inu/images/focus_right_icon.gif"></a></li> --> 
+        </ul>
+		<div class="bannerzone_menu"> 
+		<ul id="js_pop">
+		
+		
+		
+	
+	 
+	  
+		
+		   
+			<li id="1 ">
+				<a href="#js_pop"><img alt="팝업1" class="poptit1" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1791112" onclick="jf_popupView('1791112','linkType','http://www.inu.ac.kr/user/boardList.do?command=view&page=1&boardId=49211&boardSeq=538570&id=inu_070201000000','404','400','10','10','inu');return false;" title="새창으로 2019년 8월 학위수여식 안내 ◆일시 : 2019.08.16.(금) 11:00 ◆장소 : 송도캠퍼스 대강당(23호관) ◆내용 : 2019년 8월 박사·석사·학사 학위 수여식 ※주차안내 : 당일 전 주차장 무료사용 (본교 지하1층 주차장) 열림">
+						
+						<img alt="2019년 8월 학위수여식 안내 ◆일시 : 2019.08.16.(금) 11:00 ◆장소 : 송도캠퍼스 대강당(23호관) ◆내용 : 2019년 8월 박사·석사·학사 학위 수여식 ※주차안내 : 당일 전 주차장 무료사용 (본교 지하1층 주차장)" src="/user/inu/upload/popup_temp_20190718_1563432678109100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="2 ">
+				<a href="#js_pop"><img alt="팝업2" class="poptit2" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1789686" onclick="jf_popupView('1789686','linkType','http://www.inu.ac.kr/user/boardList.do?command=view&page=1&boardId=49219&boardSeq=537966&id=inu_070203000000&NewIpsi=','404','400','10','10','inu');return false;" title="새창으로 Big C 2019 바이오인천 글로벌콘퍼런스 2019.8.20.화 09:00~18:00 송도컨벤시아 그랜드 볼륨 자세히보기 열림">
+						
+						<img alt="Big C 2019 바이오인천 글로벌콘퍼런스 2019.8.20.화 09:00~18:00 송도컨벤시아 그랜드 볼륨 자세히보기" src="/user/inu/upload/popup_temp_20190717_1563325993733100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="3 ">
+				<a href="#js_pop"><img alt="팝업3" class="poptit3" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1441683" onclick="jf_popupView('1441683','linkType','http://itcenter.inu.ac.kr/cop/course/courseList.do?siteId=inu','404','400','10','10','inu');return false;" title="새창으로 2019학년도 하계 IT특강 안내 컴퓨터활용능력 1급 ACA 포토샵 자격 과정 바로가기 열림">
+						
+						<img alt="2019학년도 하계 IT특강 안내 컴퓨터활용능력 1급 ACA 포토샵 자격 과정 바로가기" src="/user/inu/upload/popup_temp_20190709_1562650791926100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="4 ">
+				<a href="#js_pop"><img alt="팝업4" class="poptit4" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1676536" onclick="jf_popupView('1676536','linkType','http://www.armyofficer.mil.kr/internet/main.html','404','400','10','10','inu');return false;" title="새창으로 2019 학군사관(ROTC) 모집안내 열림">
+						
+						<img alt="2019 학군사관(ROTC) 모집안내" src="/user/inu/upload/popup_temp_20190304_1551683544252100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="5 ">
+				<a href="#js_pop"><img alt="팝업5" class="poptit5" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=843951" onclick="jf_popupView('843951','linkType','http://www.inu.ac.kr/user/boardList.do?command=view&page=1&boardId=49219&boardSeq=453859&id=inu_070201000000','404','400','10','10','inu');return false;" title="새창으로 인천대 구성원(학생교직원)을 위한 교육할인스토어 자세히보기 열림">
+						
+						<img alt="인천대 구성원(학생교직원)을 위한 교육할인스토어 자세히보기" src="/user/inu/upload/popup_temp_20170927_1506479851793100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="6 ">
+				<a href="#js_pop"><img alt="팝업6" class="poptit6" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=970275" onclick="jf_popupView('970275','linkType','http://www.inu.ac.kr/user/boardList.do?command=view&page=1&boardId=48413&boardSeq=410569&id=inu_011401010000','404','400','10','10','inu');return false;" title="새창으로 국민권익위원회 공정하고 투명한 사회를 향한 새로운 청렴문화의 시작 국민권익위원회 청탁금지법 강의영상 열림">
+						
+						<img alt="국민권익위원회 공정하고 투명한 사회를 향한 새로운 청렴문화의 시작 국민권익위원회 청탁금지법 강의영상" src="/user/inu/upload/popup_temp_20160921_1474434874276100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="7 ">
+				<a href="#js_pop"><img alt="팝업7" class="poptit7" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1546371" onclick="jf_popupView('1546371','linkType','https://1398.acrc.go.kr/hpg/req/hpgPssStep1.do','404','400','10','10','inu');return false;" title="새창으로 국민권익위원회 튼튼한 국가 재정의 새로운 시작, 복지·보조금 부정 신고센터 열림">
+						
+						<img alt="국민권익위원회 튼튼한 국가 재정의 새로운 시작, 복지·보조금 부정 신고센터" src="/user/inu/upload/popup_temp_20180928_1538119791529100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="8 ">
+				<a href="#js_pop"><img alt="팝업8" class="poptit8" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1232462" onclick="jf_popupView('1232462','linkType','http://1398.acrc.go.kr/case/ISGAcase','404','400','10','10','inu');return false;" title="새창으로 국민권익위원회 청탁금지법 통합검색 열림">
+						
+						<img alt="국민권익위원회 청탁금지법 통합검색" src="/user/inu/upload/popup_temp_20180928_1538121583077100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="9 ">
+				<a href="#js_pop"><img alt="팝업9" class="poptit9" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1547166" onclick="jf_popupView('1547166','linkType','http://www.acrc.go.kr/acrc/Main.do','404','400','10','10','inu');return false;" title="새창으로 국민권익위원회 평범한 우리가 세상을 바꾸는 방법 공익신고 열림">
+						
+						<img alt="국민권익위원회 평범한 우리가 세상을 바꾸는 방법 공익신고" src="/user/inu/upload/popup_temp_20181001_1538357485717100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			<li id="10 ">
+				<a href="#js_pop"><img alt="팝업10" class="poptit10" src="/mbshome/mbs/inu/images/main/popup_btn_off.png"></a>
+				<div class="js_content" style="display: block; position: absolute;"> 
+					<a href="/user/popupView.do?siteId=test23&amp;configSeq=137375&amp;popupSeq=1667045" onclick="jf_popupView('1667045','linkType','http://www.inu.ac.kr/user/boardList.do?command=view&page=1&boardId=49219&boardSeq=517095&id=inu_070203000000','404','400','10','10','inu');return false;" title="새창으로 함께지키는 우리의 개인정보 알면 보이는 개인정보보호 첫걸음 개인정보 수집·이용, 그것이 알고싶다! 열림">
+						
+						<img alt="함께지키는 우리의 개인정보 알면 보이는 개인정보보호 첫걸음 개인정보 수집·이용, 그것이 알고싶다!" src="/user/inu/upload/popup_temp_20190226_1551154689209100.jpg" width="291" height="250" class="popupImgs"/>
+						
+					</a>
+				</div>
+			</li>
+			
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		   
+			
+		</ul>
+		</div>
+	</div>
+</div>
+		
+<script type="text/javascript">
+	  /*<![CDATA[*/
+	  var js_pop=null;js_pop=new pop_rolling("js_pop");js_pop.time_dealy=8000;js_pop.start();
+	  var tabWrap=document.getElementById("bannerzone");var tabCont=tabWrap.getElementsByTagName("div");
+	  for(i=0;i<tabCont.length;i++){if(tabCont.item(i).className=="js_content"){tabCont.item(i).style.position="absolute"}};/*]]>*/
+</script>
+		
+
+
+
+					</div>
+				</div>
+			</article>				
+
+			</div>
+        </div>
+				
+		<div class="main_section" id="section">
+		<div class="inu_studying">
+			<!-- STUDYING at INU -->
+			<!-- 대학 -->
+			<article class="keyIssue">
+				<h2>STUDYING at INU</h2>
+				<ul class="college">
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030100000000" title="인문대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-01.jpg" alt="인문대학 페이지 열림"></span>
+							인문대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030200000000" title="자연과학대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-02.jpg" alt="자연과학대학 페이지 열림"></span>
+							자연과학대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030300000000" title="사회과학대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-03.jpg" alt="사회과학대학 페이지 열림"></span>
+							사회과학대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030400000000" title="글로벌법정경대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-04.jpg" alt="글로벌법정경대학 페이지 열림"></span>
+							글로벌법정경대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030500000000" title="공과대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-05.jpg" alt="공과대학 페이지 열림"></span>
+							공과대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030600000000" title="정보기술대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-06.jpg" alt="정보기술대학 페이지 열림"></span>
+							정보기술대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030700000000" title="경영대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-07.jpg" alt="경영대학 페이지 열림"></span>
+							경영대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030800000000" title="동북아국제통상학부">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-08.jpg" alt="동북아국제통상학부 페이지 열림"></span>
+							동북아국제통상학부
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_030900000000" title="예술체육대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-09.jpg" alt="예술체육대학 페이지 열림"></span>
+							예술체육대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_031000000000" title="사범대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-10.jpg" alt="사범대학 페이지 열림"></span>
+							사범대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_031100000000" title="도시과학대학">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-11.jpg" alt="도시과학대학 페이지 열림"></span>
+							도시과학대학
+						</a>
+					</li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_031200000000" title="생명과학기술대학(나노바이오/생명공학)">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_1-12.jpg" alt="생명과학기술대학 페이지 열림"></span>
+							생명과학기술대학
+						</a>
+					</li>
+				</ul>
+			</article>
+			
+			<!-- 대학원 -->
+			<article class="keyIssue">
+				<h2 style="background: none;"></h2>
+				<ul class="grad">
+					<li><a href="/user/indexMain.do?siteId=grad" title="일반대학원" target="_blank">
+					<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-01.jpg" alt="일반대학원 페이지 열림"></span>일반대학원</a>
+					</li>
+					<li><a href="/user/indexMain.do?siteId=gsl" title="동북아물류대학원" target="_blank">
+					<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-02.jpg" alt="동북아물류대학원 페이지 열림"></span>동북아물류대학원
+						</a>
+					</li>
+					<li><a href="/user/indexMain.do?siteId=dept" title="교육대학원" target="_blank">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-03.jpg" alt="교육대학원 페이지 열림"></span>
+							교육대학원
+						</a>
+					</li>
+					<li><a href="/user/indexMain.do?siteId=gradpadm" title="정책대학원" target="_blank">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-04.jpg" alt="정책대학원 페이지 열림"></span>
+							정책대학원
+						</a>
+					</li>
+					<li><a href="/user/indexMain.do?siteId=information" title="정보기술대학원" target="_blank">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-05.jpg" alt="정보기술대학원 페이지 열림"></span>
+							정보기술대학원
+						</a>
+					</li>
+					<li><a href="/user/indexMain.do?siteId=business" title="경영대학원" target="_blank">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-06.jpg" alt="경영대학원 페이지 열림"></span>
+							경영대학원
+						</a>
+					</li>
+					<li><a href="/user/indexMain.do?siteId=industry" title="공학대학원" target="_blank">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-07.jpg" alt="공학대학원 페이지 열림"></span>
+							공학대학원
+						</a>
+					</li>
+					<li><a href="/user/indexMain.do?siteId=cul" title="문화대학원" target="_blank">
+					<span class="img"><img src="/mbshome/mbs/inu/images/main/visual_2-08.jpg" alt="문화대학원 페이지 열림"></span>문화대학원</a>
+					</li>
+				</ul>
+			</article>
+			
+			<!-- 동북아 -->
+			<article class="keyIssue">
+				<h2 style="background: none;"></h2>
+				<ul>
+					<li>
+						<a href="/cop/schoolDepartmentIntroduction/mainDepartmentIntroductionView.do?haksaCode=KAA1&amp;siteId=inu&amp;id=inu_030801000000" title="동북아국제통상학부(러시아, 미국, 일본, 중국 통합)">
+							<span class="img"><img src="/mbshome/mbs/inu/images/main/img_temp6.png" alt="동북아국제통상학부 페이지 열림"></span>
+							동북아국제통상학부<br>(러시아, 미국, 일본, 중국 통합)
+						</a>
+					</li>
+				</ul>
+			</article>
+			
+			<!-- //STUDYING at INU -->
+			<!-- INFORMATION -->
+			<article class="infoList1">
+				<h2>INFORMATION</h2>
+				<ul class="tab" id="tab">
+					<li>전체</li>
+					<li>학사</li>
+					<li>일반</li>
+					<li>장학금</li>
+					<li style="display: none;">모집</li>
+					<li>채용</li>
+				</ul>
+				<div class="tab_con" id="tab_con" border-bottom:1px></div>
+			</article>
+			<!-- //INFORMATION -->
+			
+		</div>
+		</div>
+		
+		<div class="main_section" id="section">
+		<div class="inu_career">
+			<!-- CAREER DEVELOPMENT -->
+			<article class="keyIssue">
+				<h2>CAREER</h2>
+				<ul>
+					<li><a href="https://job.inu.ac.kr/" target="_blank" title="취업경력개발원">
+						<span class="img"><img src="/mbshome/mbs/inu/images/main/img_temp8.png" alt="새창으로 취업경력개발원 페이지 열림"></span>
+						취업경력개발원
+					</a></li>
+					<!-- <li><a href="https://job.inu.ac.kr/Community/Program/Programlist.aspx" target="_blank" title="프로그램 안내/신청">
+						<span class="img"><img src="/mbshome/mbs/inu/images/main/img_temp9.png" alt="새창으로 프로그램 안내/신청 페이지 열림"></span>
+						프로그램 안내/신청
+					</a></li> -->
+				</ul>
+			</article>
+			<!-- //CAREER DEVELOPMENT -->
+
+			<!-- RESEARCH -->
+			<article class="keyIssue">
+				<h2>HLU</h2>
+				<ul>
+					<li><a href="/mbshome/mbs/inuengl/hanze/conference.html" target="_blank" title="한자대학동맹">
+						<span class="img"><img src="/mbshome/mbs/inu/images/main/img_temp13.png" alt="새창으로 한자대학동맹 페이지 열림"></span>
+						한자대학동맹
+					</a></li>
+				</ul>
+			</article>
+			<!-- //RESEARCH -->
+			
+			<!-- 20181001 청렴 추가 -->
+			<article class="keyIssue">
+				<h2>청렴센터</h2>
+				<ul>
+					<li>
+						<a href="/user/boardList.do?boardId=48413&amp;siteId=inu&amp;id=inu_011401010000" target="_self" title="청렴센터">
+						<span class="img"><img src="/mbshome/mbs/inu/images/main/img_temp12.png" alt="ABOUT 청렴센터 이동"></span>
+						청렴센터
+						</a>
+					</li>
+				</ul>
+			</article>
+			<!-- //청렴 -->
+
+			<!-- 연구과제공고 -->
+			<article class="projectList">
+			</article>
+			<!-- //연구과제공고 -->
+		</div>
+		</div>
+	<!--//contents-->
+
+	<!--footer-->	
+	
+	
+<footer id="footers">
+
+		<div id="service">
+			<div id="service_bg"></div>
+			<div class="footer_inner">
+				<ul>
+					<li><a href="#" class="btnLinks">주요 서비스</a>
+						<ul class="submenu" id="service_menu">
+							<li><a href="https://www.inu.ac.kr/ipsi/main.do" target="_blank" title="입학안내">입학안내</a>
+							<li><a href="https://job.inu.ac.kr/" target="_blank" title="취업정보(학생)">취업정보(학생)</a></li>
+							<li><a href="http://www.inu.ac.kr/user/indexMain.do?command=&amp;siteId=professor" title="교수채용">교수채용</a></li>
+							<li><a href="http://www.inu.ac.kr/user/indexMain.do?siteId=staff" title="직원채용">직원채용</a></li>
+							<li><a href="/mbshome/mbs/inu/campusmap/contents/songdo.jsp" onclick="window.open(this.href,'popup','width=1000,height=744,top=,left=');return false;" title="캠퍼스맵">캠퍼스맵</a></li>
+						</ul>
+						<ul class="submenu" id="service_menu">
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_010906010000" title="캠퍼스투어">캠퍼스투어</a></li>
+							<li><a href="https://uni.webminwon.com/wm1.0/jsp/index/inchundivide.jsp" title="인터넷 증명">인터넷 증명</a></li>
+							<li><a href="http://fund.inu.ac.kr" target="_blank" title="발전기금 사이트">발전기금 사이트</a></li>
+							<li><a href="http://www.inu.ac.kr/videoConference.jsp" target="_blank" title="교무회의방송">교무회의방송</a></li>
+							<li><a href="http://117.16.231.147:8080/icu/connectpage.jsp" target="_blank" title="시설예약">시설예약</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="btnLinks">서비스 지킴이</a>
+						<ul class="submenu" id="service_menu">
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_210500000000" title="학생서비스 지킴이">학생서비스 지킴이</a></li>
+							<li><a href="/user/boardList.do?boardId=413919&amp;siteId=inu&amp;id=inu_210100000000" title="묻고 답하기">묻고 답하기</a></li>
+							<li><a href="/user/boardList.do?boardId=414999&amp;siteId=inu&amp;id=inu_210200000000" title="칭찬마당">칭찬마당</a></li>
+							<li><a href="/user/boardList.do?boardId=415015&amp;siteId=inu&amp;page=1&amp;boardType=07&amp;parent=&amp;boardSeq=&amp;command=write&amp;id=inu_210300000000" title="불친절신고">불친절신고</a></li>
+							<li><a href="/user/boardList.do?boardId=415040&amp;siteId=inu&amp;id=inu_210400000000" title="분실물센터">분실물센터</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="btnLinks">INU SNS</a>
+						<ul class="submenu" id="service_menu">
+							<li><a href="http://www.inu.ac.kr/user/indexMain.do?siteId=community" target="_blank" title="인천대학교 커뮤니티">인천대학교 커뮤니티</a></li>
+							<li><a href="http://inu4u.net/xe/" target="_blank" title="아이엔유 커뮤니티">아이엔유 커뮤니티</a></li>
+							<li><a href="http://blog.naver.com/prologue/PrologueList.nhn?blogId=dream_we" target="_blank" title="드림이 블로그">드림이 블로그</a></li>
+							<li><a href="https://twitter.com/haksanlib" target="_blank" title="학산도서관 트위터">학산도서관 트위터</a></li>
+							<li><a href="https://ko-kr.facebook.com/inulib/" target="_blank" title="학산도서관 페이스북">학산도서관 페이스북</a></li>
+						</ul>					
+					</li>
+				</ul>				
+			</div>
+		</div>
+
+
+		<div id="footer_bar"></div>
+
+		<div id="family">
+			<div id="family_bg"></div>
+			<div class="footer_inner">
+				<ul>
+					<li><a href="#" class="btnLinks">관련사이트</a>
+						<ul class="submenu" id="family_menu">
+							<li><a href="http://www.inu.ac.kr/user/indexMain.do?siteId=professors" target="_blank" title="교수회">교수회</a></li>
+							<li><a href="http://uidongmun.or.kr/" target="_blank" title="총동문회">총동문회</a></li>
+							<!-- <li><a href="http://www.isepclub.com/" target="_blank" title="과학영재교육원">과학영재교육원</a></li> -->
+							<!--<li><a href="http://www.inuciel.com/" target="_blank" title="국제교육사자격교육센터" >국제교육사자격교육센터</a></li> -->
+							<li><a href="http://crciv.inu.ac.kr/" target="_blank" title="매개곤충자원융복합연구센터" >매개곤충자원융복합연구센터</a></li>
+						</ul>
+						<ul class="submenu" id="family_menu">
+							<li><a href="http://scienceincheon.com/" target="_blank" title="사이언스인천">사이언스인천</a></li>
+							<li><a href="http://www.uicoop.ac.kr/" target="_blank" title="소비자생활협동조합">소비자생활협동조합</a></li>
+							<li><a href="http://www.inupress.co.kr" target="_blank" title="인천대학교출판문화원" >출판문화원</a></li>
+							<li><a href="http://helpcall.mnd.mil.kr/user/indexMain.action?siteId=helpcall2" target="_blank" title="국방헬프콜">국방헬프콜</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="btnLinks">교내사이트</a>
+						<ul class="submenu" id="family_menu">
+							<!--<li><a href="http://www.uirf.or.kr/" target="_blank" title="공동기기원">공동기기원</a></li>-->
+							<li><a href="http://www.inu.ac.kr/user/indexMain.do?siteId=ciui" target="_blank" title="공자학원">공자학원</a></li>
+							<li><a href="http://icee.inu.ac.kr/OpenWeb/Center/Html/Default.aspx" target="_blank"  title="공학교육인증시스템">공학교육인증시스템</a></li>
+							<li><a href="http://icee.inu.ac.kr/OpenWeb/Center/Html/Default.aspx" target="_blank"  title="공학교육혁신센터">공학교육혁신센터</a></li>
+							<!-- <li><a href="http://faculty.inu.ac.kr/user/indexMain.do?siteId=professors" target="_blank"  title="교수협의회">교수협의회</a></li> -->
+							<li><a href="http://ctl.inu.ac.kr/" target="_blank"  title="교육혁신원">교육혁신원</a></li>
+							<li><a href="http://global.inu.ac.kr/" target="_blank"  title="국제지원팀">국제지원팀</a></li>
+							<li><a href="/user/indexMain.do?siteId=lang" target="_blank"  title="글로벌언어문화원">글로벌언어문화원</a></li>
+						</ul>	
+						<ul class="submenu" id="family_menu">
+							<li><a href="http://liberaledu.inu.ac.kr/user/indexMain.do?siteId=liberaledu" target="_blank"  title="기초교육원">기초교육원</a></li>
+							<li><a href="http://www.inu.ac.kr/user/indexMain.do?siteId=matrix" target="_blank"  title="매트릭스교육제도">매트릭스교육제도</a></li>
+							<li><a href="http://ssc.inu.ac.kr/user/indexMain.do?siteId=service" target="_blank"  title="사회봉사센터">사회봉사센터</a></li>
+							<li><a href="http://rnd.inu.ac.kr/user/indexMain.do?siteId=rnd" target="_blank"  title="산학협력단">산학협력단</a></li>
+							<li><a href="http://www.inu.ac.kr/user/indexMain.do?siteId=dorm" target="_blank"  title="생활원">생활원</a></li>
+							<!--<li><a href="https://safetylabs.inu.ac.kr/" target="_blank"  title="연구실안전정보시스템">연구실안전정보시스템</a></li>-->
+							<li><a href="/mbshome/mbs/inu/subview.do?id=inu_050105020000"  title="예비군연대">예비군연대</a></li>
+						</ul>		
+						<ul class="submenu" id="family_menu">
+							<li><a href="https://www1.startsupport.com/inu" target="_blank"  title="원격지원">원격지원</a></li>
+							<li><a href="https://icidcc.modoo.at/" target="_blank"  title="인천국제개발협력센터">인천국제개발협력센터</a></li>
+							<li><a href="https://erp.inu.ac.kr:8443/college.html" target="_blank" title="인천전문대학" >인천전문대학</a></li>
+							<!--<li><a href="http://www.isi.or.kr/study/main/index.php" target="_blank" title="인천학연구원">인천학연구원</a></li>-->
+							<li><a href="/user/indexMain.do?siteId=inukli" target="_blank" title="인천한국어학당">인천한국어학당</a></li>
+							<li><a href="http://itcenter.inu.ac.kr/user/indexMain.do?siteId=itcenter" target="_blank" title="정보전산원">정보전산원</a></li>
+							<li><a href="http://aocs.inu.ac.kr/icocc/main/main.php" target="_blank" title="중국관행연구사업단">중국관행연구사업단</a></li>
+							<li><a href="http://aocs.inu.ac.kr/ko-KR/main/main.php" target="_blank" title="중국학술원">중국학술원</a></li>
+						</ul>
+						<ul class="submenu" id="family_menu">
+							<li><a href="http://www.inustartup.or.kr/" target="_blank" title="창업지원단">창업지원단</a></li>
+							<li><a href="http://pedc.inu.ac.kr/user/indexMain.do?siteId=inusports" target="_blank" title="체육진흥원">체육진흥원</a></li>
+							<li><a href="https://job.inu.ac.kr/" target="_blank" title="취업경력개발원">취업경력개발원</a></li>
+							<li><a href="https://citizens.inu.ac.kr/" target="_blank" title="평생교육원">평생교육원</a></li>
+							<li><a href="https://lib.inu.ac.kr/" target="_blank" title="학산도서관">학산도서관</a></li>
+							<!--<li><a href="http://scc.inu.ac.kr/" target="_blank" title="학생생활상담소">학생생활상담소</a></li> -->
+							<li><a href="https://ipp.inu.ac.kr/" target="_blank" title="IPP사업단 홈페이지">IPP사업단 홈페이지</a></li>
+						</ul>						
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="link">
+			<div class="footer_inner">
+				<ul id="link_left">
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_011201000000" title="오시는 길">오시는 길</a></li>
+					<li><a href="/cop/haksaStaffSearch/staffSearch.do?id=inu_011000000000&amp;section=all" title="교직원 찾기">교직원 찾기</a></li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_170000000000" title="이메일주소 무단수집거부">이메일주소 무단수집거부</a></li>
+					<li><a href="http://www.academyinfo.go.kr/pubinfo/pubinfo1600/doInit.do?schlId=0002660" target="_blank" title="대학정보공시">대학정보공시</a></li>
+					<li><a href="/mbshome/mbs/inu/subview.do?id=inu_160300000000" title="개인정보처리방침">개인정보처리방침</a></li>
+					<li><a href="/user/boardList.do?boardId=461202&siteId=inu&id=inu_160301000000" title="개인정보처리방침">개인정보 목적 외 이용 및 제 3자 제공 현황</a></li>
+				</ul>
+
+				<div id="link_center">
+					<img src="/mbshome/mbs/inu/images/layout/seal_rev.png" alt="인천대학교 로고" width="120" height="120"/>
+				</div>
+
+				<ul id="link_right">
+					<li>(22012) 인천광역시 연수구 아카데미로 119(송도동)<br />인천대학교</li>
+					<li>전화:032) 835-8114 / 팩스:032) 835-0715</li>
+					<li><a href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110" target="_blank" class="wa" title="국가 공인 인증기관 : 웹와치"><img src="/mbshome/mbs/inu/images/layout/logo_wa2.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="footer_bottom">
+			<div class="footer_inner">
+				<p>©2018 INCHEON NATIONAL UNIVERSITY. ALL RIGHTS RESERVED.</p>
+			</div>
+		</div>
+	
+	</footer>
+	<!--//footer-->
+	<button class="topbtn"><i class="fas fa-chevron-up"></i></button>
+</div></div>
+</body>
+</html>
