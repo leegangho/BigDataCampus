@@ -1,6 +1,6 @@
 #20190731 텍스트 데이터 전처리 
 
-install.packages("rJava")
+#install.packages("rJava")
 
 library(rJava)
 library(RCurl)
