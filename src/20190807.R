@@ -4,7 +4,6 @@ library(ggmap)
 library(treemap)
 library(MASS)
 
-register_google(key="AIzaSyDb6CtknFf0WsNEHDErgOZZM_pTPWMfPbs")
 
 
 
