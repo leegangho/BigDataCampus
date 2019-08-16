@@ -4,8 +4,7 @@ library(ggmap)
 library(treemap)
 library(MASS)
 
-
-
+register_google(key="AIzaSyDb6CtknFf0WsNEHDErgOZZM_pTPWMfPbs")
 
 setwd("D:/BigDataCampus/practiceData/file")
 data <- read.csv("hit.csv",header=TRUE)
@@ -132,5 +131,75 @@ ggplot(air,aes(x=year,y=airmiles))+geom_line(color="red",size=1)
 data
 
 ggplot()+geom_boxplot(data=iris,aes(x=Species,y=Petal.Width,fill=Species))
+
+#--------------------------------------------------------------------------------------
+
+gc<-geocode(enc2utf8("서울시청"))
+cen<-as.numeric(gc)
+Map<-get_googlemap(center=cen,zoom=8,size=c(640,640),maptype = "roadmap")
+ggmap(Map)
+
+
+gc<-geocode(enc2utf8("금강산"))
+cen<-as.numeric(gc)
+Map<-get_googlemap(center=cen,zoom=8,size=c(640,640),maptype = "roadmap")
+ggmap(Map)
+
+
+cen=c(103.867881,1.331017)
+map<-get_googlemap(center=cen,maptype = "roadmap",zoom=9)
+ggmap(map)
+
+
+
+names <- c("강서구청", "강동구청", "강남구청", "성북구청", "서울중구청", "은평구청", "금천구청", "광진구청", "서대문구청",
+               
+               "중랑구청", "강북구청", "관악구청", "구로구청", "영등포구청", "마포구청", "종로구청", "도봉구청", "용산구청",
+               
+               "동작구청", "서초구청", "송파구청", "노원구청", "성동구청", "양천구청","동대문구청")
+
+addr<-c("서울특별시 강서구 화곡로 302 강서구청","서울특별시 강동구 성내로 25 강동구","서울특별시 강남구 학동로 426 강남구청",
+        "서울특별시 성북구 보문로 168 성북구","서울특별시 중구 창경궁로 17 중구청","서울특별시 은평구 은평로 195 은평구","서울특별시 금천구 시흥대로73길 70 금천구 종합청사",
+        "서울특별시 광진구 자양로 117 광진구","서울특별시 서대문구 연희로 248 서대문구청","서울특별시 중랑구 봉화산로 179 중랑구청","서울특별시 강북구 도봉로89길 13 강북구청",
+        "서울특별시 관악구 관악로 145","서울특별시 구로구 가마산로 245 구로","서울특별시 영등포구 당산로 123 영등포구청","서울특별시 마포구 월드컵로 212 마포구청",
+        "서울특별시 종로구 삼봉로 43 종로구청","","서울특별시 도봉구 마들로 656 도봉구청","서울특별시 용산구 녹사평대로 150 용산구종합행정타운","서울특별시 동작구 장승배기로 161 동작구청",
+        "서울특별시 서초구 남부순환로 2584 서초구청","서울특별시 송파구 올림픽로 326 송파구청","서울특별시 노원구 노해로 437 노원구청",
+        "서울특별시 성동구 고산자로 270 성동구청","서울특별시 양천구 목동동로 105 양천구청")
+
+gc<-geocode(enc2utf8(addr))
+gc$lon<-ifelse(gc$lon > 180, -(360-gc$lon),gc$lon)
+df<-data.frame(name=names,lon=gc$lon,lat=gc$lat)
+
+df<-df[-17,]
+
+cen<-c(mean(df$lon),mean(df$lat))
+map<-get_googlemap(center=cen,maptype = "roadmap",zoom=10,size=c(640,640),marker=gc)
+ggmap(map)
+
+
+names<-c("서울특별시","부산광역시","대구광역시","인천광역시","광주광역시","대전광역시","울산광역시")
+addr<-c("서울특별시","부산광역시","대구광역시","인천광역시","광주광역시","대전광역시","울산광역시")
+gc <- geocode(enc2utf8(addr))
+df<-data.frame(name=names,lon=gc$lon,lat=gc$lat)
+cen<-c(mean(df$lon),mean(df$lat))
+map<-get_googlemap(center=cen,maptype = "roadmap",zoom=7,size=c(640,640),marker=gc)
+ggmap(map)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

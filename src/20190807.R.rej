@@ -1,9 +1,0 @@
-diff a/src/20190807.R b/src/20190807.R	(rejected hunks)
-@@ -0,6 +0,7 @@
- library(treemap)
- library(MASS)
- 
-+register_google(key="AIzaSyDb6CtknFf0WsNEHDErgOZZM_pTPWMfPbs")
- 
- 
- 
