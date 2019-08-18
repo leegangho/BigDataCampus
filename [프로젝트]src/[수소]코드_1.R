@@ -25,7 +25,7 @@ H.station$V4<-as.character(H.station$V4)
 
 head(H.station)
 str(H.station)
-
+H.station
 
 
 
@@ -33,7 +33,7 @@ str(H.station)
 ge<-geocode(enc2utf8(H.station$V4))
 ge[is.na(ge$lon),]<-126.788372
 ge[4,2]<-35.2137005
-write.csv(ge,file="현재수소충전소위도경도.csv")
+#write.csv(ge,file="현재수소충전소위도경도.csv")
 
 
 # 우리나라 전체 지도에서 수소 충전소 위치 표시 
@@ -153,15 +153,12 @@ View(test.result)
 p <- ggplot()+geom_polygon(data=merge_result,aes(x=long,y=lat,group=group,fill=수소차))+labs(fill="수소차 누적 등록대수")
 p <- p+theme_void()
 
-ggmap(Map)+geom_polygon(data=merge_result,aes(x=long,y=lat,group=group,fill=수소차),alpha=0.75)+labs(fill="수소차 누적 등록대수")+geom_point(data=ge,aes(x=lon,y=lat),color="red")
+ggmap(Map)+geom_polygon(data=merge_result,aes(x=long,y=lat,group=group,fill=수소차),alpha=0.75)+labs(fill="수소차 누적 등록대수")+geom_point(data=test1,aes(x=경도,y=위도),color="#006633",alpha=0.3)+geom_point(data=ge,aes(x=lon,y=lat),color="red")
+ggmap(Map)+geom_point(data=test1,aes(x=경도,y=위도),color="#006633",alpha=0.3)+geom_point(data=ge,aes(x=lon,y=lat),color="red")
 
+#ggmap(Map)+geom_point(data=test1,aes(x=경도,y=위도),color="#006633",alpha=0.3)
 
 #-----------------------------------------------------------------------------------------
-
-
-
-
-
 
 
 
