@@ -20,9 +20,13 @@ setwd("C:/Users/fkaus/OneDrive/바탕 화면/데이터캠퍼스 프로젝트/데
 Gyeongnam <- read.csv("gyeongnam.csv",header=T)
 Gyeongnam <- Gyeongnam[,c(3,4,9)]
 
+
+Gyeongnam
+Gyeongnam <- Gyeongnam[,-3]
 inTrain <- createDataPartition(y=Gyeongnam$시군구,p=0.7,list=F)
-training <- Gyeongnam[inTrain,]
-testing <- Gyeongnam[-inTrain,]
+# training <- Gyeongnam[inTrain,]
+# testing <- Gyeongnam[-inTrain,]
+
 
 
 training.data <- training[,-3]
@@ -30,15 +34,21 @@ training.data <- training[,-3]
 summary(training.data)
 head(training.data)
 
-Gyeongnam.kmeans <- kmeans(training.data,centers =20,iter.max = 10000)
+#Gyeongnam.kmeans <- kmeans(training.data,centers =20,iter.max = 10000)
+Gyeongnam.kmeans <- kmeans(Gyeongnam,centers =20,iter.max = 10000)
 
-training$cluster <- as.factor(Gyeongnam.kmeans$cluster)
-qplot(long,lat,colour=cluster,data=training)
+
+
+#training$cluster <- as.factor(Gyeongnam.kmeans$cluster)
+Gyeongnam$cluster <- as.factor(Gyeongnam.kmeans$cluster)
+#qplot(long,lat,colour=cluster,data=training)
+qplot(long,lat,colour=cluster,data=Gyeongnam)
+
 
 Gyeongnam.kmeans$centers
 
 test <- Gyeongnam.kmeans$centers
-
+write.csv(test,file="경상남도군집.csv")
 #-------------------------------------------------------------------
 register_google(key="AIzaSyDb6CtknFf0WsNEHDErgOZZM_pTPWMfPbs")
 setwd("C:/Users/fkaus/OneDrive/바탕 화면/데이터캠퍼스 프로젝트/데이터")
